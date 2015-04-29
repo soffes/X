@@ -14,7 +14,7 @@
 	public typealias Color = NSColor
 
 	extension NSColor {
-		convenience init(red: CGFloat, green: CGFloat, blue: CGFloat, alpha: CGFloat) {
+		public convenience init(red: CGFloat, green: CGFloat, blue: CGFloat, alpha: CGFloat) {
 			self.init(SRGBRed: red, green: green, blue: blue, alpha: alpha)
 		}
 	}

@@ -15,6 +15,8 @@
 		21193C531AF044C2009FD090 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21193C2E1AF043B3009FD090 /* Color.swift */; };
 		21193C541AF044C2009FD090 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21193C301AF043FD009FD090 /* Image.swift */; };
 		21193C551AF044C2009FD090 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21193C321AF04455009FD090 /* Font.swift */; };
+		219865491AF090E700872B50 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219865481AF090E700872B50 /* CGRect.swift */; };
+		2198654B1AF0919D00872B50 /* GestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2198654A1AF0919D00872B50 /* GestureRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		21193C301AF043FD009FD090 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		21193C321AF04455009FD090 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		21193C391AF044AE009FD090 /* X.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = X.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		219865481AF090E700872B50 /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
+		2198654A1AF0919D00872B50 /* GestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				21193C2E1AF043B3009FD090 /* Color.swift */,
 				21193C301AF043FD009FD090 /* Image.swift */,
 				21193C321AF04455009FD090 /* Font.swift */,
+				219865481AF090E700872B50 /* CGRect.swift */,
+				2198654A1AF0919D00872B50 /* GestureRecognizer.swift */,
 				21193C151AF043AB009FD090 /* Supporting Files */,
 			);
 			path = X;
@@ -198,8 +204,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				21193C2F1AF043B3009FD090 /* Color.swift in Sources */,
+				2198654B1AF0919D00872B50 /* GestureRecognizer.swift in Sources */,
 				21193C311AF043FD009FD090 /* Image.swift in Sources */,
 				21193C331AF04455009FD090 /* Font.swift in Sources */,
+				219865491AF090E700872B50 /* CGRect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +414,7 @@
 				21193C2A1AF043AC009FD090 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21193C4C1AF044AE009FD090 /* Build configuration list for PBXNativeTarget "X-iOS" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +423,7 @@
 				21193C4E1AF044AE009FD090 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

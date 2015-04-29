@@ -14,8 +14,13 @@
 	public typealias Image = NSImage
 
 	extension NSImage {
-		var CGImage: CGImageRef! {
+		public var CGImage: CGImageRef! {
 			return CGImageForProposedRect(nil, context: nil, hints: nil)?.takeUnretainedValue()
+		}
+
+		// Optional to match UIImage
+		public convenience init?(CGImage cgImage: CGImageRef) {
+			self.init(CGImage: cgImage, size: CGSizeZero)
 		}
 	}
  #endif

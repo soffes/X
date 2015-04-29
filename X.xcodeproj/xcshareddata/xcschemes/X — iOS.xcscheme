@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "21193C381AF044AE009FD090"
-               BuildableName = "X-iOS.framework"
+               BuildableName = "X.framework"
                BlueprintName = "X-iOS"
                ReferencedContainer = "container:X.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "21193C381AF044AE009FD090"
-            BuildableName = "X-iOS.framework"
+            BuildableName = "X.framework"
             BlueprintName = "X-iOS"
             ReferencedContainer = "container:X.xcodeproj">
          </BuildableReference>
@@ -61,7 +61,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "21193C381AF044AE009FD090"
-            BuildableName = "X-iOS.framework"
+            BuildableName = "X.framework"
             BlueprintName = "X-iOS"
             ReferencedContainer = "container:X.xcodeproj">
          </BuildableReference>
