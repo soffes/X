@@ -15,6 +15,8 @@
 		21193C531AF044C2009FD090 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21193C2E1AF043B3009FD090 /* Color.swift */; };
 		21193C541AF044C2009FD090 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21193C301AF043FD009FD090 /* Image.swift */; };
 		21193C551AF044C2009FD090 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21193C321AF04455009FD090 /* Font.swift */; };
+		2189E4B31AF3DC6E00051BD6 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219865481AF090E700872B50 /* CGRect.swift */; };
+		2189E4B41AF3DC6E00051BD6 /* GestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2198654A1AF0919D00872B50 /* GestureRecognizer.swift */; };
 		219865491AF090E700872B50 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219865481AF090E700872B50 /* CGRect.swift */; };
 		2198654B1AF0919D00872B50 /* GestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2198654A1AF0919D00872B50 /* GestureRecognizer.swift */; };
 /* End PBXBuildFile section */
@@ -216,8 +218,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				21193C531AF044C2009FD090 /* Color.swift in Sources */,
+				2189E4B41AF3DC6E00051BD6 /* GestureRecognizer.swift in Sources */,
 				21193C541AF044C2009FD090 /* Image.swift in Sources */,
 				21193C551AF044C2009FD090 /* Font.swift in Sources */,
+				2189E4B31AF3DC6E00051BD6 /* CGRect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,6 +16,8 @@ import Foundation
 	public func CGRectFromString(string: String!) -> CGRect {
 		return NSRectFromString(string) as CGRect
 	}
+#else
+	import UIKit
 #endif
 
 
