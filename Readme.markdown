@@ -33,9 +33,34 @@ Note that all of these types end in `Type`. This is consistent with the Swift st
 public typealias Color = ColorType
 ```
 
-This is handy because X can choose to later provide a subclass if some desired functionality isn't possible via `extension`. This is the case for `View`.
+This is handy because X can choose to later provide a subclass if some desired functionality isn't possible via `extension`. This is the case for `View` (see below).
+
+If you wanted to use a color on both platforms, you could write something like this:
+
+``` swift
+let blueColor = Color(red:0.298, green:0.757, blue:0.988, alpha: 1.0)
+```
+
+Note we use `Color` instead of `ColorType` since we are initializing one. If we were using it as a type, we should use `ColorType`. Here's an example:
+
+``` swift
+func changeColor(color: ColorType) {
+    // Do something
+}
+```
 
 
 ### View
 
 [`View`](X/View.swift) inherits from `ViewType` (so either `UIView` or `NSView`) and adds some platform specific functionality. This makes methods like `layoutSubviews` work on both platforms. The UIKit API is cleaner, so NSView has methods added in `View` to make it behave more like `UIView`.
+
+Here's the current list of bridged methods that work on both:
+
+``` swift
+var wantsLayer: Bool      // On iOS, this doesn't do anything and always returns `true`.
+func didMoveToWindow()    // Bridged from `viewDidMoveToWindow`
+func didMoveToSuperview() // Bridged from `didMoveToSuperview`
+func layoutSubviews()     // Bridged from `layout`
+```
+
+Enjoy.
