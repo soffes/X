@@ -8,8 +8,10 @@
 
 #if os(iOS)
 	import UIKit.UIGestureRecognizer
-	public typealias GestureRecognizerState = UIGestureRecognizerState
+	public typealias GestureRecognizerStateType = UIGestureRecognizerState
 #else
 	import AppKit.NSGestureRecognizer
-	public typealias GestureRecognizerState = NSGestureRecognizerState
+	public typealias GestureRecognizerStateType = NSGestureRecognizerState
 #endif
+
+public typealias GestureRecognizerState = GestureRecognizerStateType

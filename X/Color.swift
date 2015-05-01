@@ -8,10 +8,10 @@
 
 #if os(iOS)
 	import UIKit.UIColor
-	public typealias Color = UIColor
+	public typealias ColorType = UIColor
 #else
 	import AppKit.NSColor
-	public typealias Color = NSColor
+	public typealias ColorType = NSColor
 
 	extension NSColor {
 		public convenience init(red: CGFloat, green: CGFloat, blue: CGFloat, alpha: CGFloat) {
@@ -19,3 +19,5 @@
 		}
 	}
 #endif
+
+public typealias Color = ColorType
