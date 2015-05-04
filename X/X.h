@@ -13,3 +13,7 @@ FOUNDATION_EXPORT double XVersionNumber;
 
 //! Project version string for X.
 FOUNDATION_EXPORT const unsigned char XVersionString[];
+
+#if TARGET_OS_MAC
+	#import <X/Image+Mac.h>
+#endif
