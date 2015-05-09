@@ -27,15 +27,15 @@ extension EdgeInsets {
 		#if os(iOS)
 			return UIEdgeInsetsInsetRect(rect, self)
 		#else
-			if (insets.top + insets.bottom > rect.size.height) || (insets.left + insets.right > rect.size.width) {
+			if (top + bottom > rect.size.height) || (left + right > rect.size.width) {
 				return CGRectNull
 			}
 
 			var insetRect = rect
-			insetRect.origin.x += insets.left
-			insetRect.origin.y += insets.top;
-			insetRect.size.height -= insets.top + insets.bottom
-			insetRect.size.width -= insets.left + insets.right
+			insetRect.origin.x += left
+			insetRect.origin.y += top;
+			insetRect.size.height -= top + bottom
+			insetRect.size.width -= left + right
 			return insetRect
 		#endif
 	}
