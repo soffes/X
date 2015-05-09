@@ -1,7 +1,7 @@
 # X Changelog
 
 ## Version 0.1.2
-*Unreleased*
+**[Released 2015-05-08](https://github.com/soffes/X/releases/tag/v0.1.2)**
 
 * Add `ContentMode`
 * Add aspect extensions to `CGSize` and `CGRect`
