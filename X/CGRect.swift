@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import CoreGraphics
 
 #if os(OSX)
 	public func NSStringFromCGRect(rect: CGRect) -> String! {
@@ -44,10 +45,12 @@ extension CGRect {
 
 	func aspectFill(minimumRect: CGRect) -> CGRect {
 		let size = self.size.aspectFill(minimumRect.size)
-		var origin = CGPointZero
-		origin.x = (minimumRect.size.width - size.width) / 2.0
-		origin.y = (minimumRect.size.height - size.height) / 2.0
-		return CGRect(origin: origin, size: size)
+		return CGRect(
+			x: (minimumRect.size.width - size.width) / 2.0,
+			y: (minimumRect.size.height - size.height) / 2.0,
+			width: size.width,
+			height: size.height
+		)
 	}
 
 	public func apply(#contentMode: ContentMode, bounds: CGRect) -> CGRect {

@@ -18,14 +18,15 @@ github "soffes/X"
 
 X provides several `typealias`es to make dealing with AppKit/UIKit types that are similar. Currently, X includes:
 
-| Name                                                    | UIKit                    | AppKit                   |
-|---------------------------------------------------------|--------------------------|--------------------------|
-| [ColorType](X/Color.swift)                              | UIColor                  | NSColor                  |
-| [FontType](X/Font.swift)                                | UIFont                   | NSFont                   |
-| [GestureRecognizerStateType](X/GestureRecognizer.swift) | UIGestureRecognizerState | NSGestureRecognizerState |
-| [ImageType](X/Image.swift)                              | UIImage                  | NSImage                  |
-| [ScreenType](X/Screen.swift)                            | UIView                   | NSView                   |
-| [ViewType](X/View.swift)                                | UIView                   | NSView                   |
+| Name                                                      | UIKit                      | AppKit                     |
+|-----------------------------------------------------------|----------------------------|----------------------------|
+| [`ColorType`](X/Color.swift)                              | `UIColor`                  | `NSColor`                  |
+| [`ContentMode`](X/ContentMode.swift)                      | `UIViewContentMode`        | N/A                        |
+| [`FontType`](X/Font.swift)                                | `UIFont`                   | `NSFont`                   |
+| [`GestureRecognizerStateType`](X/GestureRecognizer.swift) | `UIGestureRecognizerState` | `NSGestureRecognizerState` |
+| [`ImageType`](X/Image.swift)                              | `UIImage`                  | `NSImage`                  |
+| [`ScreenType`](X/Screen.swift)                            | `UIView`                   | `NSView`                   |
+| [`ViewType`](X/View.swift)                                | `UIView`                   | `NSView`                   |
 
 Note that all of these types end in `Type`. This is consistent with the Swift standard library. There's also a type alias for all of these that omit the type like this:
 
@@ -62,5 +63,9 @@ func didMoveToWindow()    // Bridged from `viewDidMoveToWindow`
 func didMoveToSuperview() // Bridged from `didMoveToSuperview`
 func layoutSubviews()     // Bridged from `layout`
 ```
+
+### Core Graphics
+
+There are several extensions for [`CGPoint`](X/CGPoint.swift), [`CGSize`](X/CGSize.swift), and [`CGRect`](X/CGRect.swift) that help with converting to and from strings since UIKit and AppKit have different function names. The UIKit function names are aliased on Mac. There are also initializers and computed properties you can use instead of the functions.
 
 Enjoy.

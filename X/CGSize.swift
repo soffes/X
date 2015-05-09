@@ -6,9 +6,31 @@
 //  Copyright (c) 2015 Sam Soffes. All rights reserved.
 //
 
+import Foundation
 import CoreGraphics
 
+#if os(OSX)
+	public func NSStringFromCGSize(size: CGSize) -> String! {
+		return NSStringFromSize(size)
+	}
+
+	public func CGSizeFromString(string: String!) -> CGSize {
+		return NSSizeFromString(string) as CGSize
+	}
+#else
+	import UIKit
+#endif
+
+
 extension CGSize {
+	public var stringRepresentation: String {
+		return NSStringFromCGSize(self)
+	}
+
+	public init(string: String) {
+		self = CGSizeFromString(string)
+	}
+
 	public var integral: CGSize {
 		return CGSize(width: ceil(width), height: ceil(height))
 	}
