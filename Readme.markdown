@@ -22,6 +22,7 @@ X provides several `typealias`es to make dealing with AppKit/UIKit types that ar
 |-----------------------------------------------------------|----------------------------|----------------------------|
 | [`ColorType`](X/Color.swift)                              | `UIColor`                  | `NSColor`                  |
 | [`ContentMode`](X/ContentMode.swift)                      | `UIViewContentMode`        | N/A                        |
+| [`EdgeInsets`](X/EdgeInsets.swift)                        | `UIEdgeInsets`             | `NSEdgeInsets`             |
 | [`FontType`](X/Font.swift)                                | `UIFont`                   | `NSFont`                   |
 | [`GestureRecognizerStateType`](X/GestureRecognizer.swift) | `UIGestureRecognizerState` | `NSGestureRecognizerState` |
 | [`ImageType`](X/Image.swift)                              | `UIImage`                  | `NSImage`                  |

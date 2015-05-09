@@ -21,6 +21,8 @@
 		21700E251AFD93F100BE9C99 /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21700E231AFD93F100BE9C99 /* CGSize.swift */; };
 		21700E271AFDA01D00BE9C99 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21700E261AFDA01D00BE9C99 /* CGPoint.swift */; };
 		21700E281AFDA01D00BE9C99 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21700E261AFDA01D00BE9C99 /* CGPoint.swift */; };
+		21700E301AFDA67900BE9C99 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21700E2F1AFDA67900BE9C99 /* EdgeInsets.swift */; };
+		21700E311AFDA67900BE9C99 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21700E2F1AFDA67900BE9C99 /* EdgeInsets.swift */; };
 		2189E4B31AF3DC6E00051BD6 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219865481AF090E700872B50 /* CGRect.swift */; };
 		2189E4B41AF3DC6E00051BD6 /* GestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2198654A1AF0919D00872B50 /* GestureRecognizer.swift */; };
 		2189E4C01AF417A400051BD6 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189E4BF1AF417A400051BD6 /* View.swift */; };
@@ -44,6 +46,7 @@
 		21700E201AFD932A00BE9C99 /* ContentMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentMode.swift; sourceTree = "<group>"; };
 		21700E231AFD93F100BE9C99 /* CGSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSize.swift; sourceTree = "<group>"; };
 		21700E261AFDA01D00BE9C99 /* CGPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
+		21700E2F1AFDA67900BE9C99 /* EdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeInsets.swift; sourceTree = "<group>"; };
 		2189E4BF1AF417A400051BD6 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		2189E4C21AF417C700051BD6 /* Screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
 		219865481AF090E700872B50 /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
@@ -93,6 +96,7 @@
 				21193C171AF043AB009FD090 /* X.h */,
 				21193C2E1AF043B3009FD090 /* Color.swift */,
 				21700E201AFD932A00BE9C99 /* ContentMode.swift */,
+				21700E2F1AFDA67900BE9C99 /* EdgeInsets.swift */,
 				21193C321AF04455009FD090 /* Font.swift */,
 				21193C301AF043FD009FD090 /* Image.swift */,
 				21700E261AFDA01D00BE9C99 /* CGPoint.swift */,
@@ -234,6 +238,7 @@
 			files = (
 				21700E271AFDA01D00BE9C99 /* CGPoint.swift in Sources */,
 				2189E4C31AF417C700051BD6 /* Screen.swift in Sources */,
+				21700E301AFDA67900BE9C99 /* EdgeInsets.swift in Sources */,
 				21193C2F1AF043B3009FD090 /* Color.swift in Sources */,
 				21700E241AFD93F100BE9C99 /* CGSize.swift in Sources */,
 				2198654B1AF0919D00872B50 /* GestureRecognizer.swift in Sources */,
@@ -253,6 +258,7 @@
 				2189E4C41AF417C700051BD6 /* Screen.swift in Sources */,
 				21193C531AF044C2009FD090 /* Color.swift in Sources */,
 				2189E4B41AF3DC6E00051BD6 /* GestureRecognizer.swift in Sources */,
+				21700E311AFDA67900BE9C99 /* EdgeInsets.swift in Sources */,
 				2189E4C11AF417A400051BD6 /* View.swift in Sources */,
 				21700E221AFD932A00BE9C99 /* ContentMode.swift in Sources */,
 				21193C541AF044C2009FD090 /* Image.swift in Sources */,
