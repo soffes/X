@@ -16,6 +16,13 @@
 
 
 extension EdgeInsets {
+	public var flipped: EdgeInsets {
+		var insets = self
+		insets.top = bottom
+		insets.bottom = top
+		return insets
+	}
+
 	public func insetRect(rect: CGRect) -> CGRect {
 		#if os(iOS)
 			return UIEdgeInsetsInsetRect(rect, self)
