@@ -143,9 +143,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		21193C111AF043AB009FD090 /* X-Mac */ = {
+		21193C111AF043AB009FD090 /* X-OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 21193C281AF043AC009FD090 /* Build configuration list for PBXNativeTarget "X-Mac" */;
+			buildConfigurationList = 21193C281AF043AC009FD090 /* Build configuration list for PBXNativeTarget "X-OSX" */;
 			buildPhases = (
 				21193C0D1AF043AB009FD090 /* Sources */,
 				21193C0E1AF043AB009FD090 /* Frameworks */,
@@ -156,7 +156,7 @@
 			);
 			dependencies = (
 			);
-			name = "X-Mac";
+			name = "X-OSX";
 			productName = X;
 			productReference = 21193C121AF043AB009FD090 /* X.framework */;
 			productType = "com.apple.product-type.framework";
@@ -185,6 +185,7 @@
 		21193C091AF043AB009FD090 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Sam Soffes";
 				TargetAttributes = {
@@ -208,7 +209,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				21193C111AF043AB009FD090 /* X-Mac */,
+				21193C111AF043AB009FD090 /* X-OSX */,
 				21193C381AF044AE009FD090 /* X-iOS */,
 			);
 		};
@@ -458,7 +459,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		21193C281AF043AC009FD090 /* Build configuration list for PBXNativeTarget "X-Mac" */ = {
+		21193C281AF043AC009FD090 /* Build configuration list for PBXNativeTarget "X-OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				21193C291AF043AC009FD090 /* Debug */,

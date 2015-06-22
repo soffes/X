@@ -53,7 +53,7 @@ extension CGRect {
 		)
 	}
 
-	public func apply(#contentMode: ContentMode, bounds: CGRect) -> CGRect {
+	public func apply(contentMode contentMode: ContentMode, bounds: CGRect) -> CGRect {
 		var rect = self
 		switch contentMode {
 		case .ScaleToFill:
