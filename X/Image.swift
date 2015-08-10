@@ -15,7 +15,7 @@
 
 	extension NSImage {
 		public var CGImage: CGImageRef! {
-			return CGImageForProposedRect(nil, context: nil, hints: nil)?.takeUnretainedValue()
+			return CGImageForProposedRect(nil, context: nil, hints: nil)
 		}
 
 		// Optional to match UIImage
