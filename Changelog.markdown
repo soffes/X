@@ -1,5 +1,12 @@
 # X Changelog
 
+## Version 0.2.0
+*Unreleased*
+
+* Swift 2 support
+* Add convenience initializer `init?(hex: String)` to `Color`
+
+
 ## Version 0.1.2
 **[Released 2015-05-08](https://github.com/soffes/X/releases/tag/v0.1.2)**
 
