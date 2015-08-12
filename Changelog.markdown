@@ -6,6 +6,7 @@
 * Swift 2 support
 * watchOS support
 * Add convenience initializer `init?(hex: String)` to `Color`
+* Change OS X target to support 10.9
 
 
 ## Version 0.1.2

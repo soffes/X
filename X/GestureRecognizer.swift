@@ -9,9 +9,9 @@
 #if os(iOS)
 	import UIKit.UIGestureRecognizer
 	public typealias GestureRecognizerStateType = UIGestureRecognizerState
+	public typealias GestureRecognizerState = GestureRecognizerStateType
 #else
-	import AppKit.NSGestureRecognizer
-	public typealias GestureRecognizerStateType = NSGestureRecognizerState
+	import AppKit
+	@available(OSX 10.10, *) public typealias GestureRecognizerStateType = NSGestureRecognizerState
+	@available(OSX 10.10, *) public typealias GestureRecognizerState = GestureRecognizerStateType
 #endif
-
-public typealias GestureRecognizerState = GestureRecognizerStateType
