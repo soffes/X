@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Sam Soffes. All rights reserved.
 //
 
-#if os(iOS)
+#if os(iOS) || os(watchOS)
 	import UIKit
 	public typealias EdgeInsets = UIEdgeInsets
 #else
@@ -31,7 +31,7 @@ extension EdgeInsets {
 	}
 
 	public func insetRect(rect: CGRect) -> CGRect {
-		#if os(iOS)
+		#if os(iOS) || os(watchOS)
 			return UIEdgeInsetsInsetRect(rect, self)
 		#else
 			if (top + bottom > rect.size.height) || (left + right > rect.size.width) {

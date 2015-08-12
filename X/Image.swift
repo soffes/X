@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Sam Soffes. All rights reserved.
 //
 
-#if os(iOS)
+#if os(iOS) || os(watchOS)
 	import UIKit.UIImage
 	public typealias ImageType = UIImage
  #else
@@ -33,4 +33,4 @@ extension Image {
 		self.init(named: name, inBundle: bundle, compatibleWithTraitCollection: nil)
 	}
 }
-#endif // Mac verison implemented in Objective-C 😭
+#endif // OS X verison implemented in Objective-C. watchOS version isn’t possible. 😭

@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Sam Soffes. All rights reserved.
 //
 
-#if os(iOS)
+#if os(iOS) || os(watchOS)
 	import UIKit.UIColor
 	public typealias ColorType = UIColor
 #else
