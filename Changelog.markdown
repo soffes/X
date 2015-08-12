@@ -4,6 +4,7 @@
 *Unreleased*
 
 * Swift 2 support
+* watchOS support
 * Add convenience initializer `init?(hex: String)` to `Color`
 
 
