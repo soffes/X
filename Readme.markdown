@@ -2,9 +2,9 @@
 
 [![Version](https://img.shields.io/github/release/soffes/x.svg)](https://github.com/soffes/X/releases) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
-Easier *cross* platform Mac and iOS development with Swift. X was abstracted out of [Redacted](http://useredacted.com) and [Whiskey](http://usewhiskey.com).
+Easier *cross* platform Mac and iOS development with Swift 2. X was abstracted out of [Redacted](http://useredacted.com) and [Whiskey](http://usewhiskey.com).
 
-Xcode 7 beta 5 is required.
+Xcode 7 beta 6 is required.
 
 
 ## Installation
