@@ -6,27 +6,17 @@
 //  Copyright (c) 2015 Sam Soffes. All rights reserved.
 //
 
-#if os(iOS)
-	import UIKit.UIView
-	public typealias ViewType = UIView
-#else
+#if os(OSX)
 	import AppKit.NSView
 	public typealias ViewType = NSView
+#else
+	import UIKit.UIView
+	public typealias ViewType = UIView
 #endif
 
 
 public class View: ViewType {
-	#if os(iOS)
-		public var wantsLayer: Bool {
-			set {
-				// Do nothing
-			}
-
-			get {
-				return true
-			}
-		}
-	#else
+	#if os(OSX)
 		public override func viewDidMoveToWindow() {
 			didMoveToWindow()
 		}
@@ -49,6 +39,16 @@ public class View: ViewType {
 
 		public func layoutSubviews() {
 			super.layout()
+		}
+	#else
+		public var wantsLayer: Bool {
+			set {
+				// Do nothing
+			}
+
+			get {
+				return true
+			}
 		}
 	#endif
 }

@@ -6,14 +6,13 @@
 //  Copyright (c) 2015 Sam Soffes. All rights reserved.
 //
 
-#if os(iOS) || os(watchOS)
-	import UIKit
-	public typealias EdgeInsets = UIEdgeInsets
-#else
+#if os(OSX)
 	import AppKit
 	public typealias EdgeInsets = NSEdgeInsets
+#else
+	import UIKit
+	public typealias EdgeInsets = UIEdgeInsets
 #endif
-
 
 public let EdgeInsetsZero = EdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
 

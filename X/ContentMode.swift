@@ -6,10 +6,7 @@
 //  Copyright (c) 2015 Sam Soffes. All rights reserved.
 //
 
-#if os(iOS)
-	import UIKit.UIView
-	public typealias ContentMode = UIViewContentMode
-#else
+#if os(OSX) || os(watchOS)
 	public enum ContentMode : Int {
 		case ScaleToFill
 		case ScaleAspectFit
@@ -25,4 +22,7 @@
 		case BottomLeft
 		case BottomRight
 	}
+#elseif os(iOS) || os(tvOS)
+	import UIKit.UIView
+	public typealias ContentMode = UIViewContentMode
 #endif

@@ -6,10 +6,7 @@
 //  Copyright (c) 2015 Sam Soffes. All rights reserved.
 //
 
-#if os(iOS) || os(watchOS)
-	import UIKit.UIImage
-	public typealias ImageType = UIImage
- #else
+#if os(OSX)
 	import AppKit.NSImage
 	public typealias ImageType = NSImage
 
@@ -23,11 +20,14 @@
 			self.init(CGImage: cgImage, size: CGSizeZero)
 		}
 	}
- #endif
+#else
+	import UIKit.UIImage
+	public typealias ImageType = UIImage
+#endif
 
 public typealias Image = ImageType
 
-#if os(iOS)
+#if os(iOS) || os(tvOS)
 extension Image {
 	public convenience init?(named name: String, inBundle bundle: NSBundle?) {
 		self.init(named: name, inBundle: bundle, compatibleWithTraitCollection: nil)

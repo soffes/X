@@ -6,10 +6,7 @@
 //  Copyright (c) 2015 Sam Soffes. All rights reserved.
 //
 
-#if os(iOS) || os(watchOS)
-	import UIKit.UIColor
-	public typealias ColorType = UIColor
-#else
+#if os(OSX)
 	import AppKit.NSColor
 	public typealias ColorType = NSColor
 
@@ -18,6 +15,9 @@
 			self.init(SRGBRed: red, green: green, blue: blue, alpha: alpha)
 		}
 	}
+#else
+	import UIKit.UIColor
+	public typealias ColorType = UIColor
 #endif
 
 public typealias Color = ColorType
