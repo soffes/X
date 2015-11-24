@@ -6,10 +6,7 @@
 //  Copyright (c) 2015 Sam Soffes. All rights reserved.
 //
 
-#if os(iOS)
-	import UIKit.UIScreen
-	public typealias Screen = UIScreen
-#else
+#if os(OSX)
 	import AppKit.NSScreen
 	public typealias Screen = NSScreen
 
@@ -18,5 +15,7 @@
 			return backingScaleFactor
 		}
 	}
+#else
+	import UIKit.UIScreen
+	public typealias Screen = UIScreen
 #endif
-

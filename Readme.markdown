@@ -4,7 +4,7 @@
 
 Easier *cross* platform Mac and iOS development with Swift 2. X was abstracted out of [Redacted](http://useredacted.com) and [Whiskey](http://usewhiskey.com).
 
-Xcode 7 beta 6 is required.
+Xcode 7.1 or higher is required.
 
 
 ## Installation
