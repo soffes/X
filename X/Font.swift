@@ -115,3 +115,31 @@
 		}
 	}
 #endif
+
+
+extension Font {
+	public var fontWithMonoSpaceNumbers: Font {
+		#if os(OSX)
+			let fontDescriptor = self.fontDescriptor.fontDescriptorByAddingAttributes([
+				NSFontFeatureSettingsAttribute: [
+					[
+						NSFontFeatureTypeIdentifierKey: kNumberSpacingType,
+						NSFontFeatureSelectorIdentifierKey: kMonospacedNumbersSelector
+					]
+				]
+			])
+			return Font(descriptor: fontDescriptor, size: pointSize) ?? self
+		#else
+			let fontDescriptor = UIFontDescriptor(name: fontName, size: pointSize).fontDescriptorByAddingAttributes([
+				UIFontDescriptorFeatureSettingsAttribute: [
+					[
+						UIFontFeatureTypeIdentifierKey: kNumberSpacingType,
+						UIFontFeatureSelectorIdentifierKey: kMonospacedNumbersSelector
+					]
+				]
+			])
+
+			return Font(descriptor: fontDescriptor, size: pointSize)
+		#endif
+	}
+}
