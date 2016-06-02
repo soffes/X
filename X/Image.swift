@@ -8,7 +8,7 @@
 
 #if os(OSX)
 	import AppKit.NSImage
-	public typealias ImageType = NSImage
+	public typealias Image = NSImage
 
 	extension NSImage {
 		public var CGImage: CGImageRef! {
@@ -22,10 +22,8 @@
 	}
 #else
 	import UIKit.UIImage
-	public typealias ImageType = UIImage
+	public typealias Image = UIImage
 #endif
-
-public typealias Image = ImageType
 
 #if os(iOS) || os(tvOS)
 extension Image {

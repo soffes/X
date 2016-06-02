@@ -21,35 +21,20 @@ X provides several `typealias`es to make dealing with AppKit/UIKit types that ar
 
 | Name                                                      | UIKit                      | AppKit                     |
 |-----------------------------------------------------------|----------------------------|----------------------------|
-| [`ColorType`](X/Color.swift)                              | `UIColor`                  | `NSColor`                  |
+| [`Color`](X/Color.swift)                                  | `UIColor`                  | `NSColor`                  |
 | [`ContentMode`](X/ContentMode.swift)                      | `UIViewContentMode`        |  N/A                        |
 | [`EdgeInsets`](X/EdgeInsets.swift)                        | `UIEdgeInsets`             | `NSEdgeInsets`             |
-| [`FontType`](X/Font.swift)                                | `UIFont`                   | `NSFont`                   |
+| [`Font`](X/Font.swift)                                    | `UIFont`                   | `NSFont`                   |
 | [`GestureRecognizerStateType`](X/GestureRecognizer.swift) | `UIGestureRecognizerState` | `NSGestureRecognizerState` |
-| [`ImageType`](X/Image.swift)                              | `UIImage`                  | `NSImage`                  |
-| [`ScreenType`](X/Screen.swift)                            | `UIScreen`                 | `NSScreen`                 |
+| [`Image`](X/Image.swift)                                  | `UIImage`                  | `NSImage`                  |
+| [`Screen`](X/Screen.swift)                                | `UIScreen`                 | `NSScreen`                 |
 | [`ViewType`](X/View.swift)                                | `UIView`                   | `NSView`                   |
 
-Note that all of these types end in `Type`. This is consistent with the Swift standard library. There's also a type alias for all of these that omit the type like this:
-
-``` swift
-public typealias Color = ColorType
-```
-
-This is handy because X can choose to later provide a subclass if some desired functionality isn't possible via `extension`. This is the case for `View` (see below).
 
 If you wanted to use a color on both platforms, you could write something like this:
 
 ``` swift
 let blueColor = Color(red:0.298, green:0.757, blue:0.988, alpha: 1.0)
-```
-
-Note we use `Color` instead of `ColorType` since we are initializing one. If we were using it as a type, we should use `ColorType`. Here's an example:
-
-``` swift
-func changeColor(color: ColorType) {
-    // Do something
-}
 ```
 
 

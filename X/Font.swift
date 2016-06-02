@@ -8,10 +8,8 @@
 
 #if os(OSX)
 	import AppKit.NSFont
-	public typealias FontType = NSFont
+	public typealias Font = NSFont
 #else
 	import UIKit.UIFont
-	public typealias FontType = UIFont
+	public typealias Font = UIFont
 #endif
-
-public typealias Font = FontType
