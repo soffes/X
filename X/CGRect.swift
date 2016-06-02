@@ -31,10 +31,6 @@ extension CGRect {
 		self = CGRectFromString(string)
 	}
 
-	public var integral: CGRect {
-		return CGRectIntegral(self)
-	}
-
 	public func aspectFit(boundingRect: CGRect) -> CGRect {
 		let size = self.size.aspectFit(boundingRect.size)
 		var origin = boundingRect.origin

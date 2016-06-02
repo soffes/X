@@ -9,7 +9,9 @@
 #if os(OSX)
 	import AppKit
 	@available(OSX 10.10, *) public typealias GestureRecognizerState = NSGestureRecognizerState
+	@available(OSX 10.10, *) public typealias TapGestureRecognizer = NSClickGestureRecognizer
 #else
 	import UIKit.UIGestureRecognizer
 	public typealias GestureRecognizerState = UIGestureRecognizerState
+	public typealias TapGestureRecognizer = UITapGestureRecognizer
 #endif

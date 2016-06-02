@@ -17,6 +17,10 @@
 
 public class View: ViewType {
 	#if os(OSX)
+		public var userInteractionEnabled: Bool {
+			return true
+		}
+	
 		public override func viewDidMoveToWindow() {
 			didMoveToWindow()
 		}
