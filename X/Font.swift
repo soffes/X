@@ -118,7 +118,7 @@
 
 
 extension Font {
-	public var fontWithMonoSpaceNumbers: Font {
+	public var fontWithMonospacedNumbers: Font {
 		#if os(OSX)
 			let fontDescriptor = self.fontDescriptor.fontDescriptorByAddingAttributes([
 				NSFontFeatureSettingsAttribute: [
@@ -129,6 +129,16 @@ extension Font {
 				]
 			])
 			return Font(descriptor: fontDescriptor, size: pointSize) ?? self
+		#elseif os(watchOS)
+			let fontDescriptor = UIFontDescriptor(name: fontName, size: pointSize).fontDescriptorByAddingAttributes([
+				UIFontDescriptorFeatureSettingsAttribute: [
+					[
+						UIFontFeatureTypeIdentifierKey: 6,
+						UIFontFeatureSelectorIdentifierKey: 0
+					]
+				]
+			])
+			return Font(descriptor: fontDescriptor, size: pointSize)
 		#else
 			let fontDescriptor = UIFontDescriptor(name: fontName, size: pointSize).fontDescriptorByAddingAttributes([
 				UIFontDescriptorFeatureSettingsAttribute: [
@@ -138,7 +148,6 @@ extension Font {
 					]
 				]
 			])
-
 			return Font(descriptor: fontDescriptor, size: pointSize)
 		#endif
 	}
