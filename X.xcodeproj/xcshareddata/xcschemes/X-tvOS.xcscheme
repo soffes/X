@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "211827511D257CB7003F2BF2"
-               BuildableName = "X-tvOS.framework"
+               BuildableName = "X.framework"
                BlueprintName = "X-tvOS"
                ReferencedContainer = "container:X.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2118275A1D257CB8003F2BF2"
-               BuildableName = "XTests-tvOS.xctest"
+               BuildableName = "XTests.xctest"
                BlueprintName = "XTests-tvOS"
                ReferencedContainer = "container:X.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "211827511D257CB7003F2BF2"
-            BuildableName = "X-tvOS.framework"
+            BuildableName = "X.framework"
             BlueprintName = "X-tvOS"
             ReferencedContainer = "container:X.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "211827511D257CB7003F2BF2"
-            BuildableName = "X-tvOS.framework"
+            BuildableName = "X.framework"
             BlueprintName = "X-tvOS"
             ReferencedContainer = "container:X.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "211827511D257CB7003F2BF2"
-            BuildableName = "X-tvOS.framework"
+            BuildableName = "X.framework"
             BlueprintName = "X-tvOS"
             ReferencedContainer = "container:X.xcodeproj">
          </BuildableReference>

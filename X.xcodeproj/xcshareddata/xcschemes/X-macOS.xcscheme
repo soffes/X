@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "211827281D257CA2003F2BF2"
-               BuildableName = "X-macOS.framework"
+               BuildableName = "X.framework"
                BlueprintName = "X-macOS"
                ReferencedContainer = "container:X.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "211827311D257CA2003F2BF2"
-               BuildableName = "XTests-macOS.xctest"
+               BuildableName = "XTests.xctest"
                BlueprintName = "XTests-macOS"
                ReferencedContainer = "container:X.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "211827281D257CA2003F2BF2"
-            BuildableName = "X-macOS.framework"
+            BuildableName = "X.framework"
             BlueprintName = "X-macOS"
             ReferencedContainer = "container:X.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "211827281D257CA2003F2BF2"
-            BuildableName = "X-macOS.framework"
+            BuildableName = "X.framework"
             BlueprintName = "X-macOS"
             ReferencedContainer = "container:X.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "211827281D257CA2003F2BF2"
-            BuildableName = "X-macOS.framework"
+            BuildableName = "X.framework"
             BlueprintName = "X-macOS"
             ReferencedContainer = "container:X.xcodeproj">
          </BuildableReference>
