@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0730"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "21193C111AF043AB009FD090"
-               BuildableName = "X.framework"
-               BlueprintName = "X-OSX"
+               BlueprintIdentifier = "211827281D257CA2003F2BF2"
+               BuildableName = "X-macOS.framework"
+               BlueprintName = "X-macOS"
                ReferencedContainer = "container:X.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "21F28DA81B7AC48E009DD1E9"
-               BuildableName = "XTests.xctest"
-               BlueprintName = "XTests"
+               BlueprintIdentifier = "211827311D257CA2003F2BF2"
+               BuildableName = "XTests-macOS.xctest"
+               BlueprintName = "XTests-macOS"
                ReferencedContainer = "container:X.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21193C111AF043AB009FD090"
-            BuildableName = "X.framework"
-            BlueprintName = "X-OSX"
+            BlueprintIdentifier = "211827281D257CA2003F2BF2"
+            BuildableName = "X-macOS.framework"
+            BlueprintName = "X-macOS"
             ReferencedContainer = "container:X.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,9 +64,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21193C111AF043AB009FD090"
-            BuildableName = "X.framework"
-            BlueprintName = "X-OSX"
+            BlueprintIdentifier = "211827281D257CA2003F2BF2"
+            BuildableName = "X-macOS.framework"
+            BlueprintName = "X-macOS"
             ReferencedContainer = "container:X.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +82,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21193C111AF043AB009FD090"
-            BuildableName = "X.framework"
-            BlueprintName = "X-OSX"
+            BlueprintIdentifier = "211827281D257CA2003F2BF2"
+            BuildableName = "X-macOS.framework"
+            BlueprintName = "X-macOS"
             ReferencedContainer = "container:X.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0730"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "21F28DBF1B7AC65F009DD1E9"
-               BuildableName = "X.framework"
+               BlueprintIdentifier = "211827441D257CB1003F2BF2"
+               BuildableName = "X-watchOS.framework"
                BlueprintName = "X-watchOS"
                ReferencedContainer = "container:X.xcodeproj">
             </BuildableReference>
@@ -45,8 +45,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21F28DBF1B7AC65F009DD1E9"
-            BuildableName = "X.framework"
+            BlueprintIdentifier = "211827441D257CB1003F2BF2"
+            BuildableName = "X-watchOS.framework"
             BlueprintName = "X-watchOS"
             ReferencedContainer = "container:X.xcodeproj">
          </BuildableReference>
@@ -63,8 +63,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21F28DBF1B7AC65F009DD1E9"
-            BuildableName = "X.framework"
+            BlueprintIdentifier = "211827441D257CB1003F2BF2"
+            BuildableName = "X-watchOS.framework"
             BlueprintName = "X-watchOS"
             ReferencedContainer = "container:X.xcodeproj">
          </BuildableReference>

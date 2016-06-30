@@ -15,5 +15,5 @@ FOUNDATION_EXPORT double XVersionNumber;
 FOUNDATION_EXPORT const unsigned char XVersionString[];
 
 #if !TARGET_OS_IPHONE && TARGET_OS_MAC
-	#import <X/Image+Mac.h>
+	#import <X/Image+macOS.h>
 #endif

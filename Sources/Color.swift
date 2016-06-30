@@ -60,4 +60,30 @@ extension Color {
 
 		self.init(red: red, green: green, blue: blue, alpha: alpha)
 	}
+
+	#if !os(OSX)
+		public var redComponent: CGFloat {
+			var value: CGFloat = 0.0
+			getRed(&value, green: nil, blue: nil, alpha: nil)
+			return value
+		}
+
+		public var greenComponent: CGFloat {
+			var value: CGFloat = 0.0
+			getRed(nil, green: &value, blue: nil, alpha: nil)
+			return value
+		}
+
+		public var blueComponent: CGFloat {
+			var value: CGFloat = 0.0
+			getRed(nil, green: nil, blue: &value, alpha: nil)
+			return value
+		}
+
+		public var alphaComponent: CGFloat {
+			var value: CGFloat = 0.0
+			getRed(nil, green: nil, blue: nil, alpha: &value)
+			return value
+		}
+	#endif
 }
