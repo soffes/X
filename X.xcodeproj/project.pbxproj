@@ -59,6 +59,14 @@
 		211827B51D257D36003F2BF2 /* X.h in Headers */ = {isa = PBXBuildFile; fileRef = 211827B31D257D2F003F2BF2 /* X.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		211827B61D257D37003F2BF2 /* X.h in Headers */ = {isa = PBXBuildFile; fileRef = 211827B31D257D2F003F2BF2 /* X.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		211827B71D257D38003F2BF2 /* X.h in Headers */ = {isa = PBXBuildFile; fileRef = 211827B31D257D2F003F2BF2 /* X.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21F6EFF61D7095CB008B63DF /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFF51D7095CB008B63DF /* TextStyle.swift */; };
+		21F6EFF71D7095CB008B63DF /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFF51D7095CB008B63DF /* TextStyle.swift */; };
+		21F6EFF81D7095CB008B63DF /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFF51D7095CB008B63DF /* TextStyle.swift */; };
+		21F6EFF91D7095CB008B63DF /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFF51D7095CB008B63DF /* TextStyle.swift */; };
+		21F6EFFB1D709980008B63DF /* FontWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFFA1D709980008B63DF /* FontWeight.swift */; };
+		21F6EFFC1D709980008B63DF /* FontWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFFA1D709980008B63DF /* FontWeight.swift */; };
+		21F6EFFD1D709980008B63DF /* FontWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFFA1D709980008B63DF /* FontWeight.swift */; };
+		21F6EFFE1D709980008B63DF /* FontWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFFA1D709980008B63DF /* FontWeight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +118,8 @@
 		211827B11D257D2F003F2BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		211827B21D257D2F003F2BF2 /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		211827B31D257D2F003F2BF2 /* X.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = X.h; sourceTree = "<group>"; };
+		21F6EFF51D7095CB008B63DF /* TextStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextStyle.swift; sourceTree = "<group>"; };
+		21F6EFFA1D709980008B63DF /* FontWeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontWeight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +194,8 @@
 				211827741D257D1D003F2BF2 /* Image.swift */,
 				211827751D257D1D003F2BF2 /* Screen.swift */,
 				211827761D257D1D003F2BF2 /* View.swift */,
+				21F6EFF51D7095CB008B63DF /* TextStyle.swift */,
+				21F6EFFA1D709980008B63DF /* FontWeight.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -508,6 +520,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21F6EFF61D7095CB008B63DF /* TextStyle.swift in Sources */,
 				211827771D257D1D003F2BF2 /* CGPoint.swift in Sources */,
 				211827931D257D1D003F2BF2 /* GestureRecognizer.swift in Sources */,
 				211827831D257D1D003F2BF2 /* Color.swift in Sources */,
@@ -516,6 +529,7 @@
 				2118278B1D257D1D003F2BF2 /* EdgeInsets.swift in Sources */,
 				2118277F1D257D1D003F2BF2 /* CGSize.swift in Sources */,
 				211827A71D257D1D003F2BF2 /* View.swift in Sources */,
+				21F6EFFB1D709980008B63DF /* FontWeight.swift in Sources */,
 				211827871D257D1D003F2BF2 /* ContentMode.swift in Sources */,
 				2118277B1D257D1D003F2BF2 /* CGRect.swift in Sources */,
 				2118279F1D257D1D003F2BF2 /* Image.swift in Sources */,
@@ -534,6 +548,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21F6EFF71D7095CB008B63DF /* TextStyle.swift in Sources */,
 				211827781D257D1D003F2BF2 /* CGPoint.swift in Sources */,
 				211827941D257D1D003F2BF2 /* GestureRecognizer.swift in Sources */,
 				211827841D257D1D003F2BF2 /* Color.swift in Sources */,
@@ -542,6 +557,7 @@
 				2118278C1D257D1D003F2BF2 /* EdgeInsets.swift in Sources */,
 				211827801D257D1D003F2BF2 /* CGSize.swift in Sources */,
 				211827A81D257D1D003F2BF2 /* View.swift in Sources */,
+				21F6EFFC1D709980008B63DF /* FontWeight.swift in Sources */,
 				211827881D257D1D003F2BF2 /* ContentMode.swift in Sources */,
 				2118277C1D257D1D003F2BF2 /* CGRect.swift in Sources */,
 				211827A01D257D1D003F2BF2 /* Image.swift in Sources */,
@@ -560,6 +576,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21F6EFFD1D709980008B63DF /* FontWeight.swift in Sources */,
+				21F6EFF81D7095CB008B63DF /* TextStyle.swift in Sources */,
 				211827791D257D1D003F2BF2 /* CGPoint.swift in Sources */,
 				211827851D257D1D003F2BF2 /* Color.swift in Sources */,
 				211827911D257D1D003F2BF2 /* Font.swift in Sources */,
@@ -575,6 +593,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21F6EFF91D7095CB008B63DF /* TextStyle.swift in Sources */,
 				2118277A1D257D1D003F2BF2 /* CGPoint.swift in Sources */,
 				211827961D257D1D003F2BF2 /* GestureRecognizer.swift in Sources */,
 				211827861D257D1D003F2BF2 /* Color.swift in Sources */,
@@ -583,6 +602,7 @@
 				2118278E1D257D1D003F2BF2 /* EdgeInsets.swift in Sources */,
 				211827821D257D1D003F2BF2 /* CGSize.swift in Sources */,
 				211827AA1D257D1D003F2BF2 /* View.swift in Sources */,
+				21F6EFFE1D709980008B63DF /* FontWeight.swift in Sources */,
 				2118278A1D257D1D003F2BF2 /* ContentMode.swift in Sources */,
 				2118277E1D257D1D003F2BF2 /* CGRect.swift in Sources */,
 				211827A21D257D1D003F2BF2 /* Image.swift in Sources */,
@@ -907,7 +927,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -951,7 +971,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
