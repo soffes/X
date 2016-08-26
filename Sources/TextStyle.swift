@@ -66,6 +66,24 @@ public enum TextStyle {
 }
 
 
+extension TextStyle: CustomStringConvertible {
+	public var description: String {
+		switch self {
+		case .title1: return "Title1"
+		case .title2: return "Title2"
+		case .title3: return "Title3"
+		case .headline: return "Headline"
+		case .subheadline: return "Subheadline"
+		case .body: return "Body"
+		case .footnote: return "Footnote"
+		case .caption1: return "Caption1"
+		case .caption2: return "Caption2"
+		case .callout: return "Callout"
+		}
+	}
+}
+
+
 extension Font {
 	public static func preferredFontForTextStyle(textStyle: TextStyle) -> Font {
 		#if os(iOS) || os(tvOS) || os(watchOS)

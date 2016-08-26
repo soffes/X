@@ -53,3 +53,20 @@ public enum FontWeight {
 		}
 	#endif
 }
+
+
+extension FontWeight: CustomStringConvertible {
+	public var description: String {
+		switch self {
+		case .ultraLight: return "UltraLight"
+		case .thin: return "Thin"
+		case .light: return "Light"
+		case .regular: return "Regular"
+		case .medium: return "Medium"
+		case .semibold: return "Semibold"
+		case .bold: return "Bold"
+		case .heavy: return "Heavy"
+		case .black: return "Black"
+		}
+	}
+}
