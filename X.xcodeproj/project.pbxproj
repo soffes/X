@@ -67,6 +67,10 @@
 		21F6EFFC1D709980008B63DF /* FontWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFFA1D709980008B63DF /* FontWeight.swift */; };
 		21F6EFFD1D709980008B63DF /* FontWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFFA1D709980008B63DF /* FontWeight.swift */; };
 		21F6EFFE1D709980008B63DF /* FontWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFFA1D709980008B63DF /* FontWeight.swift */; };
+		21F6F0311D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6F0301D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift */; };
+		21F6F0321D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6F0301D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift */; };
+		21F6F0331D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6F0301D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift */; };
+		21F6F0341D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6F0301D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +124,7 @@
 		211827B31D257D2F003F2BF2 /* X.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = X.h; sourceTree = "<group>"; };
 		21F6EFF51D7095CB008B63DF /* TextStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextStyle.swift; sourceTree = "<group>"; };
 		21F6EFFA1D709980008B63DF /* FontWeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontWeight.swift; sourceTree = "<group>"; };
+		21F6F0301D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontDescriptorSymbolicTraits.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +201,7 @@
 				211827761D257D1D003F2BF2 /* View.swift */,
 				21F6EFF51D7095CB008B63DF /* TextStyle.swift */,
 				21F6EFFA1D709980008B63DF /* FontWeight.swift */,
+				21F6F0301D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -522,6 +528,7 @@
 			files = (
 				21F6EFF61D7095CB008B63DF /* TextStyle.swift in Sources */,
 				211827771D257D1D003F2BF2 /* CGPoint.swift in Sources */,
+				21F6F0311D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift in Sources */,
 				211827931D257D1D003F2BF2 /* GestureRecognizer.swift in Sources */,
 				211827831D257D1D003F2BF2 /* Color.swift in Sources */,
 				211827A31D257D1D003F2BF2 /* Screen.swift in Sources */,
@@ -550,6 +557,7 @@
 			files = (
 				21F6EFF71D7095CB008B63DF /* TextStyle.swift in Sources */,
 				211827781D257D1D003F2BF2 /* CGPoint.swift in Sources */,
+				21F6F0321D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift in Sources */,
 				211827941D257D1D003F2BF2 /* GestureRecognizer.swift in Sources */,
 				211827841D257D1D003F2BF2 /* Color.swift in Sources */,
 				211827A41D257D1D003F2BF2 /* Screen.swift in Sources */,
@@ -585,6 +593,7 @@
 				211827811D257D1D003F2BF2 /* CGSize.swift in Sources */,
 				211827891D257D1D003F2BF2 /* ContentMode.swift in Sources */,
 				2118277D1D257D1D003F2BF2 /* CGRect.swift in Sources */,
+				21F6F0331D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift in Sources */,
 				211827A11D257D1D003F2BF2 /* Image.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -595,6 +604,7 @@
 			files = (
 				21F6EFF91D7095CB008B63DF /* TextStyle.swift in Sources */,
 				2118277A1D257D1D003F2BF2 /* CGPoint.swift in Sources */,
+				21F6F0341D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift in Sources */,
 				211827961D257D1D003F2BF2 /* GestureRecognizer.swift in Sources */,
 				211827861D257D1D003F2BF2 /* Color.swift in Sources */,
 				211827A61D257D1D003F2BF2 /* Screen.swift in Sources */,
