@@ -89,13 +89,7 @@ extension Font {
 		#if os(iOS) || os(tvOS) || os(watchOS)
 			return Font.preferredFontForTextStyle(textStyle.textStyle)
 		#else
-			var descriptor = NSFont.systemFontOfSize(textStyle.pointSize).fontDescriptor
-			descriptor = descriptor.fontDescriptorByAddingAttributes([
-				NSFontTraitsAttribute: [
-					NSFontWeightTrait: textStyle.fontWeight.weight
-				]
-			])
-			return NSFont(descriptor: descriptor, size: textStyle.pointSize)!
+			return Font.systemFontOfSize(textStyle.pointSize, weight: textStyle.fontWeight)
 		#endif
 	}
 }

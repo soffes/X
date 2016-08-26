@@ -97,5 +97,6 @@ import Foundation
 		}
 	}
 #else
+	import UIKit
 	public typealias FontDescriptorSymbolicTraits = UIFontDescriptorSymbolicTraits
 #endif
