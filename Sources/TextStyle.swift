@@ -25,20 +25,20 @@ public enum TextStyle {
 	case callout
 
 	#if os(iOS) || os(tvOS) || os(watchOS)
-	public var textStyle: String {
-		switch self {
-		case .title1: return UIFontTextStyleTitle1
-		case .title2: return UIFontTextStyleTitle2
-		case .title3: return UIFontTextStyleTitle3
-		case .headline: return UIFontTextStyleHeadline
-		case .subheadline: return UIFontTextStyleSubheadline
-		case .body: return UIFontTextStyleBody
-		case .footnote: return UIFontTextStyleFootnote
-		case .caption1: return UIFontTextStyleCaption1
-		case .caption2: return UIFontTextStyleCaption2
-		case .callout: return UIFontTextStyleCallout
+		public var textStyle: String {
+			switch self {
+			case .title1: return UIFontTextStyleTitle1
+			case .title2: return UIFontTextStyleTitle2
+			case .title3: return UIFontTextStyleTitle3
+			case .headline: return UIFontTextStyleHeadline
+			case .subheadline: return UIFontTextStyleSubheadline
+			case .body: return UIFontTextStyleBody
+			case .footnote: return UIFontTextStyleFootnote
+			case .caption1: return UIFontTextStyleCaption1
+			case .caption2: return UIFontTextStyleCaption2
+			case .callout: return UIFontTextStyleCallout
+			}
 		}
-	}
 	#endif
 
 	public var fontWeight: FontWeight {
