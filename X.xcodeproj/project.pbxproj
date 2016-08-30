@@ -59,10 +59,10 @@
 		211827B51D257D36003F2BF2 /* X.h in Headers */ = {isa = PBXBuildFile; fileRef = 211827B31D257D2F003F2BF2 /* X.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		211827B61D257D37003F2BF2 /* X.h in Headers */ = {isa = PBXBuildFile; fileRef = 211827B31D257D2F003F2BF2 /* X.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		211827B71D257D38003F2BF2 /* X.h in Headers */ = {isa = PBXBuildFile; fileRef = 211827B31D257D2F003F2BF2 /* X.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21F6EFF61D7095CB008B63DF /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFF51D7095CB008B63DF /* TextStyle.swift */; };
-		21F6EFF71D7095CB008B63DF /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFF51D7095CB008B63DF /* TextStyle.swift */; };
-		21F6EFF81D7095CB008B63DF /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFF51D7095CB008B63DF /* TextStyle.swift */; };
-		21F6EFF91D7095CB008B63DF /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFF51D7095CB008B63DF /* TextStyle.swift */; };
+		21F6EFF61D7095CB008B63DF /* FontTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFF51D7095CB008B63DF /* FontTextStyle.swift */; };
+		21F6EFF71D7095CB008B63DF /* FontTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFF51D7095CB008B63DF /* FontTextStyle.swift */; };
+		21F6EFF81D7095CB008B63DF /* FontTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFF51D7095CB008B63DF /* FontTextStyle.swift */; };
+		21F6EFF91D7095CB008B63DF /* FontTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFF51D7095CB008B63DF /* FontTextStyle.swift */; };
 		21F6EFFB1D709980008B63DF /* FontWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFFA1D709980008B63DF /* FontWeight.swift */; };
 		21F6EFFC1D709980008B63DF /* FontWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFFA1D709980008B63DF /* FontWeight.swift */; };
 		21F6EFFD1D709980008B63DF /* FontWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFFA1D709980008B63DF /* FontWeight.swift */; };
@@ -122,7 +122,7 @@
 		211827B11D257D2F003F2BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		211827B21D257D2F003F2BF2 /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		211827B31D257D2F003F2BF2 /* X.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = X.h; sourceTree = "<group>"; };
-		21F6EFF51D7095CB008B63DF /* TextStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextStyle.swift; sourceTree = "<group>"; };
+		21F6EFF51D7095CB008B63DF /* FontTextStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontTextStyle.swift; sourceTree = "<group>"; };
 		21F6EFFA1D709980008B63DF /* FontWeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontWeight.swift; sourceTree = "<group>"; };
 		21F6F0301D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontDescriptorSymbolicTraits.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -199,7 +199,7 @@
 				211827741D257D1D003F2BF2 /* Image.swift */,
 				211827751D257D1D003F2BF2 /* Screen.swift */,
 				211827761D257D1D003F2BF2 /* View.swift */,
-				21F6EFF51D7095CB008B63DF /* TextStyle.swift */,
+				21F6EFF51D7095CB008B63DF /* FontTextStyle.swift */,
 				21F6EFFA1D709980008B63DF /* FontWeight.swift */,
 				21F6F0301D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift */,
 			);
@@ -527,7 +527,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21F6EFF61D7095CB008B63DF /* TextStyle.swift in Sources */,
+				21F6EFF61D7095CB008B63DF /* FontTextStyle.swift in Sources */,
 				211827771D257D1D003F2BF2 /* CGPoint.swift in Sources */,
 				21F6F0311D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift in Sources */,
 				211827931D257D1D003F2BF2 /* GestureRecognizer.swift in Sources */,
@@ -556,7 +556,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21F6EFF71D7095CB008B63DF /* TextStyle.swift in Sources */,
+				21F6EFF71D7095CB008B63DF /* FontTextStyle.swift in Sources */,
 				211827781D257D1D003F2BF2 /* CGPoint.swift in Sources */,
 				21F6F0321D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift in Sources */,
 				211827941D257D1D003F2BF2 /* GestureRecognizer.swift in Sources */,
@@ -586,7 +586,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21F6EFFD1D709980008B63DF /* FontWeight.swift in Sources */,
-				21F6EFF81D7095CB008B63DF /* TextStyle.swift in Sources */,
+				21F6EFF81D7095CB008B63DF /* FontTextStyle.swift in Sources */,
 				211827791D257D1D003F2BF2 /* CGPoint.swift in Sources */,
 				211827851D257D1D003F2BF2 /* Color.swift in Sources */,
 				211827911D257D1D003F2BF2 /* Font.swift in Sources */,
@@ -603,7 +603,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21F6EFF91D7095CB008B63DF /* TextStyle.swift in Sources */,
+				21F6EFF91D7095CB008B63DF /* FontTextStyle.swift in Sources */,
 				2118277A1D257D1D003F2BF2 /* CGPoint.swift in Sources */,
 				21F6F0341D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift in Sources */,
 				211827961D257D1D003F2BF2 /* GestureRecognizer.swift in Sources */,
