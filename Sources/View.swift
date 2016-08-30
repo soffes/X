@@ -15,37 +15,37 @@
 #endif
 
 
-public class View: ViewType {
+open class View: ViewType {
 	#if os(OSX)
-		public var userInteractionEnabled: Bool {
+		open var userInteractionEnabled: Bool {
 			return true
 		}
 	
-		public override func viewDidMoveToWindow() {
+		open override func viewDidMoveToWindow() {
 			didMoveToWindow()
 		}
 
-		public func didMoveToWindow() {
+		open func didMoveToWindow() {
 			super.viewDidMoveToWindow()
 		}
 
-		public override func viewDidMoveToSuperview() {
+		open override func viewDidMoveToSuperview() {
 			didMoveToSuperview()
 		}
 
-		public func didMoveToSuperview() {
+		open func didMoveToSuperview() {
 			super.viewDidMoveToSuperview()
 		}
 
-		public override func layout() {
+		open override func layout() {
 			layoutSubviews()
 		}
 
-		public func layoutSubviews() {
+		open func layoutSubviews() {
 			super.layout()
 		}
 	#else
-		public var wantsLayer: Bool {
+		open var wantsLayer: Bool {
 			set {
 				// Do nothing
 			}
