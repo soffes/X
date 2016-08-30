@@ -10,13 +10,13 @@
 	import AppKit.NSImage
 	public typealias Image = NSImage
 
-	extension NSImage {
+	extension Image {
 		public var cgImage: CGImage! {
 			return cgImage(forProposedRect: nil, context: nil, hints: nil)
 		}
 
 		// Optional to match UIImage
-		public convenience init?(CGImage cgImage: CGImage) {
+		public convenience init?(cgImage: CGImage) {
 			self.init(cgImage: cgImage, size: .zero)
 		}
 	}
