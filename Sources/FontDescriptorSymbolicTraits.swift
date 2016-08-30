@@ -24,72 +24,72 @@ import Foundation
 			var traits = FontDescriptorSymbolicTraits()
 
 			if symbolicTraits & UInt32(NSFontItalicTrait) == UInt32(NSFontItalicTrait) {
-				traits.insert(.TraitItalic)
+				traits.insert(.traitItalic)
 			}
 
 			if symbolicTraits & UInt32(NSFontBoldTrait) == UInt32(NSFontBoldTrait) {
-				traits.insert(.TraitBold)
+				traits.insert(.traitBold)
 			}
 
 			if symbolicTraits & UInt32(NSFontExpandedTrait) == UInt32(NSFontExpandedTrait) {
-				traits.insert(.TraitExpanded)
+				traits.insert(.traitExpanded)
 			}
 
 			if symbolicTraits & UInt32(NSFontCondensedTrait) == UInt32(NSFontCondensedTrait) {
-				traits.insert(.TraitCondensed)
+				traits.insert(.traitCondensed)
 			}
 
 			if symbolicTraits & UInt32(NSFontMonoSpaceTrait) == UInt32(NSFontMonoSpaceTrait) {
-				traits.insert(.TraitMonoSpace)
+				traits.insert(.traitMonoSpace)
 			}
 
 			if symbolicTraits & UInt32(NSFontVerticalTrait) == UInt32(NSFontVerticalTrait) {
-				traits.insert(.TraitVertical)
+				traits.insert(.traitVertical)
 			}
 
 			if symbolicTraits & UInt32(NSFontUIOptimizedTrait) == UInt32(NSFontUIOptimizedTrait) {
-				traits.insert(.TraitUIOptimized)
+				traits.insert(.traitUIOptimized)
 			}
 
 			self = traits
 		}
 
-		public static let TraitItalic = FontDescriptorSymbolicTraits(rawValue: NSFontItalicTrait)
-		public static let TraitBold = FontDescriptorSymbolicTraits(rawValue: NSFontBoldTrait)
-		public static let TraitExpanded = FontDescriptorSymbolicTraits(rawValue: NSFontExpandedTrait)
-		public static let TraitCondensed = FontDescriptorSymbolicTraits(rawValue: NSFontCondensedTrait)
-		public static let TraitMonoSpace = FontDescriptorSymbolicTraits(rawValue: NSFontMonoSpaceTrait)
-		public static let TraitVertical = FontDescriptorSymbolicTraits(rawValue: NSFontVerticalTrait)
-		public static let TraitUIOptimized = FontDescriptorSymbolicTraits(rawValue: NSFontUIOptimizedTrait)
+		public static let traitItalic = FontDescriptorSymbolicTraits(rawValue: NSFontItalicTrait)
+		public static let traitBold = FontDescriptorSymbolicTraits(rawValue: NSFontBoldTrait)
+		public static let traitExpanded = FontDescriptorSymbolicTraits(rawValue: NSFontExpandedTrait)
+		public static let traitCondensed = FontDescriptorSymbolicTraits(rawValue: NSFontCondensedTrait)
+		public static let traitMonoSpace = FontDescriptorSymbolicTraits(rawValue: NSFontMonoSpaceTrait)
+		public static let traitVertical = FontDescriptorSymbolicTraits(rawValue: NSFontVerticalTrait)
+		public static let traitUIOptimized = FontDescriptorSymbolicTraits(rawValue: NSFontUIOptimizedTrait)
 
 		public var symbolicTraits: NSFontSymbolicTraits {
 			var symbolicTraits: NSFontSymbolicTraits = 0
 
-			if contains(.TraitItalic) {
+			if contains(.traitItalic) {
 				symbolicTraits ^= UInt32(NSFontItalicTrait)
 			}
 
-			if contains(.TraitBold) {
+			if contains(.traitBold) {
 				symbolicTraits ^= UInt32(NSFontBoldTrait)
 			}
 
-			if contains(.TraitExpanded) {
+			if contains(.traitExpanded) {
 				symbolicTraits ^= UInt32(NSFontExpandedTrait)
 			}
 
-			if contains(.TraitCondensed) {
+			if contains(.traitCondensed) {
 				symbolicTraits ^= UInt32(NSFontCondensedTrait)
 			}
 
-			if contains(.TraitMonoSpace) {
+			if contains(.traitMonoSpace) {
 				symbolicTraits ^= UInt32(NSFontMonoSpaceTrait)
 			}
 
-			if contains(.TraitVertical) {
+			if contains(.traitVertical) {
 				symbolicTraits ^= UInt32(NSFontVerticalTrait)
 			}
 
-			if contains(.TraitUIOptimized) {
+			if contains(.traitUIOptimized) {
 				symbolicTraits ^= UInt32(NSFontUIOptimizedTrait)
 			}
 
