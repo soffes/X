@@ -50,7 +50,7 @@
 
 
 	extension Font {
-		public static func preferredFont(forTextStyle: FontTextStyle) -> Font {
+		public static func preferredFont(forTextStyle textStyle: FontTextStyle) -> Font {
 			return Font.systemFontOfSize(textStyle.pointSize, weight: textStyle.fontWeight)
 		}
 	}
