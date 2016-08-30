@@ -12,7 +12,7 @@
 
 	extension NSColor {
 		public convenience init(red: CGFloat, green: CGFloat, blue: CGFloat, alpha: CGFloat) {
-			self.init(SRGBRed: red, green: green, blue: blue, alpha: alpha)
+			self.init(srgbRed: red, green: green, blue: blue, alpha: alpha)
 		}
 	}
 #else
@@ -21,42 +21,42 @@
 #endif
 
 extension Color {
-	public convenience init?(hex s: String) {
-		var hex: NSString = s
+	public convenience init?(hex string: String) {
+		var hex = string
 
 		// Remove `#` and `0x`
 		if hex.hasPrefix("#") {
-			hex = hex.substringFromIndex(1)
+			hex = hex.substring(from: hex.index(hex.startIndex, offsetBy: 1))
 		} else if hex.hasPrefix("0x") {
-			hex = hex.substringFromIndex(2)
+			hex = hex.substring(from: hex.index(hex.startIndex, offsetBy: 2))
 		}
 
 		// Invalid if not 3, 6, or 8 characters
-		let length = hex.length
+		let length = hex.characters.count
 		if length != 3 && length != 6 && length != 8 {
 			return nil
 		}
 
 		// Make the string 8 characters long for easier parsing
 		if length == 3 {
-			let r = hex.substringWithRange(NSMakeRange(0, 1))
-			let g = hex.substringWithRange(NSMakeRange(1, 1))
-			let b = hex.substringWithRange(NSMakeRange(2, 1))
+			let r = hex.substring(with: hex.startIndex..<hex.index(hex.startIndex, offsetBy: 1))
+			let g = hex.substring(with: hex.index(hex.startIndex, offsetBy: 1)..<hex.index(hex.startIndex, offsetBy: 2))
+			let b = hex.substring(with: hex.index(hex.startIndex, offsetBy: 2)..<hex.index(hex.startIndex, offsetBy: 3))
 			hex = r + r + g + g + b + b + "ff"
 		} else if length == 6 {
 			hex = String(hex) + "ff"
 		}
 
 		// Convert 2 character strings to CGFloats
-		func hexValue(string: String) -> CGFloat {
-			let value = Double(strtoul(string, nil, 16))
-			return CGFloat(value / 255.0)
+		func hexValue(_ string: String) -> CGFloat {
+			let value = CGFloat(strtoul(string, nil, 16))
+			return value / 255
 		}
 
-		let red = hexValue(hex.substringWithRange(NSMakeRange(0, 2)))
-		let green = hexValue(hex.substringWithRange(NSMakeRange(2, 2)))
-		let blue = hexValue(hex.substringWithRange(NSMakeRange(4, 2)))
-		let alpha = hexValue(hex.substringWithRange(NSMakeRange(6, 2)))
+		let red = hexValue(hex.substring(with: hex.startIndex..<hex.index(hex.startIndex, offsetBy: 2)))
+		let green = hexValue(hex.substring(with: hex.index(hex.startIndex, offsetBy: 2)..<hex.index(hex.startIndex, offsetBy: 4)))
+		let blue = hexValue(hex.substring(with: hex.index(hex.startIndex, offsetBy: 4)..<hex.index(hex.startIndex, offsetBy: 6)))
+		let alpha = hexValue(hex.substring(with: hex.index(hex.startIndex, offsetBy: 6)..<hex.index(hex.startIndex, offsetBy: 8)))
 
 		self.init(red: red, green: green, blue: blue, alpha: alpha)
 	}

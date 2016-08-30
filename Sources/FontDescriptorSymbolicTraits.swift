@@ -9,7 +9,7 @@
 import Foundation
 
 #if os(OSX)
-	public struct FontDescriptorSymbolicTraits: OptionSetType {
+	public struct FontDescriptorSymbolicTraits: OptionSet {
 		public let rawValue: Int32
 
 		public init(rawValue: Int32) {

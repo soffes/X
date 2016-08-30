@@ -11,13 +11,13 @@
 	public typealias Image = NSImage
 
 	extension NSImage {
-		public var CGImage: CGImageRef! {
-			return CGImageForProposedRect(nil, context: nil, hints: nil)
+		public var cgImage: CGImage! {
+			return cgImage(forProposedRect: nil, context: nil, hints: nil)
 		}
 
 		// Optional to match UIImage
-		public convenience init?(CGImage cgImage: CGImageRef) {
-			self.init(CGImage: cgImage, size: CGSizeZero)
+		public convenience init?(CGImage cgImage: CGImage) {
+			self.init(cgImage: cgImage, size: .zero)
 		}
 	}
 #else
@@ -27,8 +27,8 @@
 
 #if os(iOS) || os(tvOS)
 extension Image {
-	public convenience init?(named name: String, inBundle bundle: NSBundle?) {
-		self.init(named: name, inBundle: bundle, compatibleWithTraitCollection: nil)
+	public convenience init?(named name: String, in bundle: Bundle?) {
+		self.init(named: name, in: bundle, compatibleWith: nil)
 	}
 }
 #endif // OS X verison implemented in Objective-C. watchOS version isn’t possible. 😭

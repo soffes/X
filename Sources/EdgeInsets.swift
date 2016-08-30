@@ -8,20 +8,13 @@
 
 #if os(OSX)
 	import AppKit
-	public typealias EdgeInsets = NSEdgeInsets
 #else
 	import UIKit
 	public typealias EdgeInsets = UIEdgeInsets
 #endif
 
-public let EdgeInsetsZero = EdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
-
 
 extension EdgeInsets {
-	public static var zero: EdgeInsets {
-		return EdgeInsetsZero
-	}
-
 	public var flipped: EdgeInsets {
 		var insets = self
 		insets.top = bottom
@@ -34,7 +27,7 @@ extension EdgeInsets {
 			return UIEdgeInsetsInsetRect(rect, self)
 		#else
 			if (top + bottom > rect.size.height) || (left + right > rect.size.width) {
-				return CGRectNull
+				return .null
 			}
 
 			var insetRect = rect

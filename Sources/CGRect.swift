@@ -10,11 +10,11 @@ import Foundation
 import CoreGraphics
 
 #if os(OSX)
-	public func NSStringFromCGRect(rect: CGRect) -> String! {
+	public func NSStringFromCGRect(_ rect: CGRect) -> String! {
 		return NSStringFromRect(rect)
 	}
 
-	public func CGRectFromString(string: String!) -> CGRect {
+	public func CGRectFromString(_ string: String!) -> CGRect {
 		return NSRectFromString(string) as CGRect
 	}
 #else
@@ -31,7 +31,7 @@ extension CGRect {
 		self = CGRectFromString(string)
 	}
 
-	public func aspectFit(boundingRect: CGRect) -> CGRect {
+	public func aspectFit(_ boundingRect: CGRect) -> CGRect {
 		let size = self.size.aspectFit(boundingRect.size)
 		var origin = boundingRect.origin
 		origin.x += (boundingRect.size.width - size.width) / 2.0
@@ -39,7 +39,7 @@ extension CGRect {
 		return CGRect(origin: origin, size: size)
 	}
 
-	func aspectFill(minimumRect: CGRect) -> CGRect {
+	func aspectFill(_ minimumRect: CGRect) -> CGRect {
 		let size = self.size.aspectFill(minimumRect.size)
 		return CGRect(
 			x: (minimumRect.size.width - size.width) / 2.0,
@@ -49,49 +49,49 @@ extension CGRect {
 		)
 	}
 
-	public func apply(contentMode contentMode: ContentMode, bounds: CGRect) -> CGRect {
+	public func apply(contentMode: ContentMode, bounds: CGRect) -> CGRect {
 		var rect = self
 		switch contentMode {
-		case .ScaleToFill:
+		case .scaleToFill:
 			return bounds
-		case .ScaleAspectFit:
+		case .scaleAspectFit:
 			return aspectFit(bounds)
-		case .ScaleAspectFill:
+		case .scaleAspectFill:
 			return aspectFill(bounds)
-		case .Redraw:
+		case .redraw:
 			return rect
-		case .Center:
+		case .center:
 			rect.origin.x = (bounds.size.width - rect.size.width) / 2.0
 			rect.origin.y = (bounds.size.height - rect.size.height) / 2.0
 			return rect
-		case .Top:
+		case .top:
 			rect.origin.y = 0
 			rect.origin.x = (bounds.size.width - rect.size.width) / 2.0
 			return rect
-		case .Bottom:
+		case .bottom:
 			rect.origin.x = (bounds.size.width - rect.size.width) / 2.0
 			rect.origin.y = bounds.size.height - rect.size.height
 			return rect
-		case .Left:
+		case .left:
 			rect.origin.x = 0
 			rect.origin.y = (bounds.size.height - rect.size.height) / 2.0
 			return rect
-		case .Right:
+		case .right:
 			rect.origin.x = bounds.size.width - rect.size.width
 			rect.origin.y = (bounds.size.height - rect.size.height) / 2.0
 			return rect
-		case .TopLeft:
-			rect.origin = CGPointZero
+		case .topLeft:
+			rect.origin = CGPoint.zero
 			return rect
-		case .TopRight:
+		case .topRight:
 			rect.origin.x = bounds.size.width - rect.size.width
 			rect.origin.y = 0
 			return rect
-		case .BottomLeft:
+		case .bottomLeft:
 			rect.origin.x = 0
 			rect.origin.y = bounds.size.height - rect.size.height
 			return rect
-		case .BottomRight:
+		case .bottomRight:
 			rect.origin.x = bounds.size.width - rect.size.width
 			rect.origin.y = bounds.size.height - rect.size.height
 			return rect

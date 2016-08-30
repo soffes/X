@@ -73,12 +73,12 @@ extension FontWeight: CustomStringConvertible {
 
 
 extension Font {
-	public static func systemFontOfSize(fontSize: CGFloat, weight: FontWeight) -> Font {
+	public static func systemFontOfSize(_ fontSize: CGFloat, weight: FontWeight) -> Font {
 		#if os(iOS) || os(tvOS) || os(watchOS)
-			return Font.systemFontOfSize(fontSize, weight: weight.weight)
+			return Font.systemFont(ofSize: fontSize, weight: weight.weight)
 		#else
-			var descriptor = NSFont.systemFontOfSize(fontSize).fontDescriptor
-			descriptor = descriptor.fontDescriptorByAddingAttributes([
+			var descriptor = NSFont.systemFont(ofSize: fontSize).fontDescriptor
+			descriptor = descriptor.addingAttributes([
 				NSFontTraitsAttribute: [
 					NSFontWeightTrait: weight.weight
 				]

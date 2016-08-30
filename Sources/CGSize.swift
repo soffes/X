@@ -10,11 +10,11 @@ import Foundation
 import CoreGraphics
 
 #if os(OSX)
-	public func NSStringFromCGSize(size: CGSize) -> String! {
+	public func NSStringFromCGSize(_ size: CGSize) -> String! {
 		return NSStringFromSize(size)
 	}
 
-	public func CGSizeFromString(string: String!) -> CGSize {
+	public func CGSizeFromString(_ string: String!) -> CGSize {
 		return NSSizeFromString(string) as CGSize
 	}
 #else
@@ -35,7 +35,7 @@ extension CGSize {
 		return CGSize(width: ceil(width), height: ceil(height))
 	}
 
-	public func aspectFit(boundingSize: CGSize) -> CGSize {
+	public func aspectFit(_ boundingSize: CGSize) -> CGSize {
 		let aspectRatio = self
 		var size = boundingSize
 		let widthRatio = boundingSize.width / aspectRatio.width
@@ -48,7 +48,7 @@ extension CGSize {
 		return size
 	}
 
-	public func aspectFill(minimumSize: CGSize) ->  CGSize {
+	public func aspectFill(_ minimumSize: CGSize) ->  CGSize {
 		let aspectRatio = self
 		var size = minimumSize
 		let widthRatio = minimumSize.width / aspectRatio.width

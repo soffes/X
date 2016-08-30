@@ -8,19 +8,19 @@
 
 #if os(OSX) || os(watchOS)
 	public enum ContentMode : Int {
-		case ScaleToFill
-		case ScaleAspectFit
-		case ScaleAspectFill
-		case Redraw
-		case Center
-		case Top
-		case Bottom
-		case Left
-		case Right
-		case TopLeft
-		case TopRight
-		case BottomLeft
-		case BottomRight
+		case scaleToFill
+		case scaleAspectFit
+		case scaleAspectFill
+		case redraw
+		case center
+		case top
+		case bottom
+		case left
+		case right
+		case topLeft
+		case topRight
+		case bottomLeft
+		case bottomRight
 	}
 #elseif os(iOS) || os(tvOS)
 	import UIKit.UIView

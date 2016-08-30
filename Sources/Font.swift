@@ -21,7 +21,7 @@
 
 	extension Font {
 		public var symbolicTraits: FontDescriptorSymbolicTraits {
-			return fontDescriptor().symbolicTraits
+			return fontDescriptor.symbolicTraits
 		}
 	}
 #endif
@@ -30,7 +30,7 @@
 extension Font {
 	public var fontWithMonospacedNumbers: Font {
 		#if os(OSX)
-			let fontDescriptor = self.fontDescriptor.fontDescriptorByAddingAttributes([
+			let fontDescriptor = self.fontDescriptor.addingAttributes([
 				NSFontFeatureSettingsAttribute: [
 					[
 						NSFontFeatureTypeIdentifierKey: kNumberSpacingType,
@@ -40,7 +40,7 @@ extension Font {
 			])
 			return Font(descriptor: fontDescriptor, size: pointSize) ?? self
 		#elseif os(watchOS)
-			let fontDescriptor = UIFontDescriptor(name: fontName, size: pointSize).fontDescriptorByAddingAttributes([
+			let fontDescriptor = UIFontDescriptor(name: fontName, size: pointSize).addingAttributes([
 				UIFontDescriptorFeatureSettingsAttribute: [
 					[
 						UIFontFeatureTypeIdentifierKey: 6,
@@ -50,7 +50,7 @@ extension Font {
 			])
 			return Font(descriptor: fontDescriptor, size: pointSize)
 		#else
-			let fontDescriptor = UIFontDescriptor(name: fontName, size: pointSize).fontDescriptorByAddingAttributes([
+			let fontDescriptor = UIFontDescriptor(name: fontName, size: pointSize).addingAttributes([
 				UIFontDescriptorFeatureSettingsAttribute: [
 					[
 						UIFontFeatureTypeIdentifierKey: kNumberSpacingType,

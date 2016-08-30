@@ -10,11 +10,11 @@ import Foundation
 import CoreGraphics
 
 #if os(OSX)
-	public func NSStringFromCGPoint(point: CGPoint) -> String! {
+	public func NSStringFromCGPoint(_ point: CGPoint) -> String! {
 		return NSStringFromPoint(point)
 	}
 
-	public func CGPointFromString(string: String!) -> CGPoint {
+	public func CGPointFromString(_ string: String!) -> CGPoint {
 		return NSPointFromString(string) as CGPoint
 	}
 #else
