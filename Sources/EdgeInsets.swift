@@ -15,6 +15,8 @@
 
 
 extension EdgeInsets {
+	public static let zero = EdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+	
 	public var flipped: EdgeInsets {
 		var insets = self
 		insets.top = bottom
