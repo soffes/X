@@ -15,8 +15,10 @@
 
 
 extension EdgeInsets {
-	public static let zero = EdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
-	
+	#if os(macOS)
+		public static let zero = EdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+	#endif
+
 	public var flipped: EdgeInsets {
 		var insets = self
 		insets.top = bottom
@@ -25,9 +27,7 @@ extension EdgeInsets {
 	}
 
 	public func insetRect(rect: CGRect) -> CGRect {
-		#if os(iOS) || os(watchOS)
-			return UIEdgeInsetsInsetRect(rect, self)
-		#else
+		#if os(macOS)
 			if (top + bottom > rect.size.height) || (left + right > rect.size.width) {
 				return .null
 			}
@@ -38,6 +38,8 @@ extension EdgeInsets {
 			insetRect.size.height -= top + bottom
 			insetRect.size.width -= left + right
 			return insetRect
+		#else
+			return UIEdgeInsetsInsetRect(rect, self)
 		#endif
 	}
 }
