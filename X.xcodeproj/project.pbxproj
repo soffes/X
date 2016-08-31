@@ -59,6 +59,7 @@
 		211827B51D257D36003F2BF2 /* X.h in Headers */ = {isa = PBXBuildFile; fileRef = 211827B31D257D2F003F2BF2 /* X.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		211827B61D257D37003F2BF2 /* X.h in Headers */ = {isa = PBXBuildFile; fileRef = 211827B31D257D2F003F2BF2 /* X.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		211827B71D257D38003F2BF2 /* X.h in Headers */ = {isa = PBXBuildFile; fileRef = 211827B31D257D2F003F2BF2 /* X.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21E1204C1D76BE4B0063D780 /* Image+macOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 211827731D257D1D003F2BF2 /* Image+macOS.m */; };
 		21F6EFF61D7095CB008B63DF /* FontTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFF51D7095CB008B63DF /* FontTextStyle.swift */; };
 		21F6EFF71D7095CB008B63DF /* FontTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFF51D7095CB008B63DF /* FontTextStyle.swift */; };
 		21F6EFF81D7095CB008B63DF /* FontTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFF51D7095CB008B63DF /* FontTextStyle.swift */; };
@@ -556,6 +557,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21E1204C1D76BE4B0063D780 /* Image+macOS.m in Sources */,
 				21F6EFF71D7095CB008B63DF /* FontTextStyle.swift in Sources */,
 				211827781D257D1D003F2BF2 /* CGPoint.swift in Sources */,
 				21F6F0321D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift in Sources */,

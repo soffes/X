@@ -10,6 +10,6 @@
 
 @interface NSImage (X)
 
-+ (nullable instancetype)imageNamed:(nonnull NSString *)name in:(nullable NSBundle *)bundle;
++ (nullable NSImage *)imageNamed:(nonnull NSString *)name inBundle:(nullable NSBundle *)bundle;
 
 @end
