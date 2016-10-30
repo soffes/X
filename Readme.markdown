@@ -1,10 +1,12 @@
 # X
 
-[![Version](https://img.shields.io/github/release/soffes/x.svg)](https://github.com/soffes/X/releases) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Version](https://img.shields.io/github/release/soffes/x.svg)](https://github.com/soffes/X/releases)
+![Swift Version](https://img.shields.io/badge/swift-3.0.1-orange.svg)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
-Easier *cross* platform Mac and iOS development with Swift 2. X was abstracted out of [Redacted](http://useredacted.com) and [Whiskey](http://usewhiskey.com).
+Easier *cross* platform Mac and iOS development with Swift 3. X was abstracted out of [Redacted](http://useredacted.com) and [Whiskey](http://usewhiskey.com).
 
-Xcode 7.1 or higher is required.
+Xcode 8.1 or higher is required.
 
 
 ## Installation
