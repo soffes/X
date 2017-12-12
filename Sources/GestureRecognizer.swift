@@ -7,11 +7,11 @@
 //
 
 #if os(OSX)
-	import AppKit
-	@available(OSX 10.10, *) public typealias GestureRecognizerState = NSGestureRecognizerState
+	import AppKit.NSGestureRecognizer
+	@available(OSX 10.10, *) public typealias GestureRecognizer = NSGestureRecognizer
 	@available(OSX 10.10, *) public typealias TapGestureRecognizer = NSClickGestureRecognizer
 #else
 	import UIKit.UIGestureRecognizer
-	public typealias GestureRecognizerState = UIGestureRecognizerState
+	public typealias GestureRecognizer = UIGestureRecognizer
 	public typealias TapGestureRecognizer = UITapGestureRecognizer
 #endif

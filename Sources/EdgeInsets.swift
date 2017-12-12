@@ -8,6 +8,7 @@
 
 #if os(OSX)
 	import AppKit
+	public typealias EdgeInsets = NSEdgeInsets
 #else
 	import UIKit
 	public typealias EdgeInsets = UIEdgeInsets

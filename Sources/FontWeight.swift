@@ -26,15 +26,15 @@ public enum FontWeight {
 	#if os(iOS) || os(tvOS) || os(watchOS)
 		public var weight: CGFloat {
 			switch self {
-			case .ultraLight: return UIFontWeightUltraLight
-			case .thin: return UIFontWeightThin
-			case .light: return UIFontWeightLight
-			case .regular: return UIFontWeightRegular
-			case .medium: return UIFontWeightMedium
-			case .semibold: return UIFontWeightSemibold
-			case .bold: return UIFontWeightBold
-			case .heavy: return UIFontWeightHeavy
-			case .black: return UIFontWeightBlack
+			case .ultraLight: return UIFont.Weight.ultraLight.rawValue
+			case .thin: return UIFont.Weight.thin.rawValue
+			case .light: return UIFont.Weight.light.rawValue
+			case .regular: return UIFont.Weight.regular.rawValue
+			case .medium: return UIFont.Weight.medium.rawValue
+			case .semibold: return UIFont.Weight.semibold.rawValue
+			case .bold: return UIFont.Weight.bold.rawValue
+			case .heavy: return UIFont.Weight.heavy.rawValue
+			case .black: return UIFont.Weight.black.rawValue
 			}
 		}
 	#else
@@ -75,12 +75,12 @@ extension FontWeight: CustomStringConvertible {
 extension Font {
 	public static func systemFontOfSize(_ fontSize: CGFloat, weight: FontWeight) -> Font {
 		#if os(iOS) || os(tvOS) || os(watchOS)
-			return Font.systemFont(ofSize: fontSize, weight: weight.weight)
+			return Font.systemFont(ofSize: fontSize, weight: UIFont.Weight(rawValue: weight.weight))
 		#else
 			var descriptor = NSFont.systemFont(ofSize: fontSize).fontDescriptor
 			descriptor = descriptor.addingAttributes([
-				NSFontTraitsAttribute: [
-					NSFontWeightTrait: weight.weight
+				NSFontDescriptor.AttributeName.traits: [
+					NSFontDescriptor.TraitKey.weight: weight.weight
 				]
 			])
 			return NSFont(descriptor: descriptor, size: fontSize)!
