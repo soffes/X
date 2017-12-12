@@ -14,4 +14,8 @@
 	import UIKit.UIGestureRecognizer
 	public typealias GestureRecognizer = UIGestureRecognizer
 	public typealias TapGestureRecognizer = UITapGestureRecognizer
+
+	extension GestureRecognizer {
+		public typealias State = UIGestureRecognizerState
+	}
 #endif
