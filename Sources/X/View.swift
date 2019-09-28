@@ -1,12 +1,12 @@
-#if os(macOS)
-	import AppKit.NSView
-	public typealias ViewType = NSView
-#else
-	import UIKit.UIView
-	public typealias ViewType = UIView
+#if os(iOS) || os(tvOS)
+    import UIKit.UIView
+    public typealias ViewType = UIView
+#elseif os(macOS)
+    import AppKit.NSView
+    public typealias ViewType = NSView
 #endif
 
-
+#if os(iOS) || os(tvOS) || os(macOS)
 open class View: ViewType {
 	#if os(macOS)
 		open var userInteractionEnabled: Bool {
@@ -48,3 +48,4 @@ open class View: ViewType {
 		}
 	#endif
 }
+#endif

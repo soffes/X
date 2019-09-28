@@ -1,6 +1,8 @@
 import Foundation
 
 #if os(macOS)
+    import AppKit
+
 	public struct FontDescriptorSymbolicTraits: OptionSet {
 		public let rawValue: Int32
 

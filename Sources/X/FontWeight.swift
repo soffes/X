@@ -1,7 +1,7 @@
 #if os(iOS) || os(tvOS) || os(watchOS)
 	import UIKit
 #elseif os(macOS)
-	import CoreGraphics
+	import AppKit
 #endif
 
 public enum FontWeight {

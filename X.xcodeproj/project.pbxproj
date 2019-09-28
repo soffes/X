@@ -7,65 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		211827771D257D1D003F2BF2 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118276A1D257D1D003F2BF2 /* CGPoint.swift */; };
-		211827781D257D1D003F2BF2 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118276A1D257D1D003F2BF2 /* CGPoint.swift */; };
-		211827791D257D1D003F2BF2 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118276A1D257D1D003F2BF2 /* CGPoint.swift */; };
-		2118277A1D257D1D003F2BF2 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118276A1D257D1D003F2BF2 /* CGPoint.swift */; };
-		2118277B1D257D1D003F2BF2 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118276B1D257D1D003F2BF2 /* CGRect.swift */; };
-		2118277C1D257D1D003F2BF2 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118276B1D257D1D003F2BF2 /* CGRect.swift */; };
-		2118277D1D257D1D003F2BF2 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118276B1D257D1D003F2BF2 /* CGRect.swift */; };
-		2118277E1D257D1D003F2BF2 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118276B1D257D1D003F2BF2 /* CGRect.swift */; };
-		2118277F1D257D1D003F2BF2 /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118276C1D257D1D003F2BF2 /* CGSize.swift */; };
-		211827801D257D1D003F2BF2 /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118276C1D257D1D003F2BF2 /* CGSize.swift */; };
-		211827811D257D1D003F2BF2 /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118276C1D257D1D003F2BF2 /* CGSize.swift */; };
-		211827821D257D1D003F2BF2 /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118276C1D257D1D003F2BF2 /* CGSize.swift */; };
-		211827831D257D1D003F2BF2 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118276D1D257D1D003F2BF2 /* Color.swift */; };
-		211827841D257D1D003F2BF2 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118276D1D257D1D003F2BF2 /* Color.swift */; };
-		211827851D257D1D003F2BF2 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118276D1D257D1D003F2BF2 /* Color.swift */; };
-		211827861D257D1D003F2BF2 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118276D1D257D1D003F2BF2 /* Color.swift */; };
-		211827871D257D1D003F2BF2 /* ContentMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118276E1D257D1D003F2BF2 /* ContentMode.swift */; };
-		211827881D257D1D003F2BF2 /* ContentMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118276E1D257D1D003F2BF2 /* ContentMode.swift */; };
-		211827891D257D1D003F2BF2 /* ContentMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118276E1D257D1D003F2BF2 /* ContentMode.swift */; };
-		2118278A1D257D1D003F2BF2 /* ContentMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118276E1D257D1D003F2BF2 /* ContentMode.swift */; };
-		2118278B1D257D1D003F2BF2 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118276F1D257D1D003F2BF2 /* EdgeInsets.swift */; };
-		2118278C1D257D1D003F2BF2 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118276F1D257D1D003F2BF2 /* EdgeInsets.swift */; };
-		2118278D1D257D1D003F2BF2 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118276F1D257D1D003F2BF2 /* EdgeInsets.swift */; };
-		2118278E1D257D1D003F2BF2 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2118276F1D257D1D003F2BF2 /* EdgeInsets.swift */; };
-		2118278F1D257D1D003F2BF2 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211827701D257D1D003F2BF2 /* Font.swift */; };
-		211827901D257D1D003F2BF2 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211827701D257D1D003F2BF2 /* Font.swift */; };
-		211827911D257D1D003F2BF2 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211827701D257D1D003F2BF2 /* Font.swift */; };
-		211827921D257D1D003F2BF2 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211827701D257D1D003F2BF2 /* Font.swift */; };
-		211827931D257D1D003F2BF2 /* GestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211827711D257D1D003F2BF2 /* GestureRecognizer.swift */; };
-		211827941D257D1D003F2BF2 /* GestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211827711D257D1D003F2BF2 /* GestureRecognizer.swift */; };
-		211827961D257D1D003F2BF2 /* GestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211827711D257D1D003F2BF2 /* GestureRecognizer.swift */; };
-		211827981D257D1D003F2BF2 /* Image+macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 211827721D257D1D003F2BF2 /* Image+macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2118279F1D257D1D003F2BF2 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211827741D257D1D003F2BF2 /* Image.swift */; };
-		211827A01D257D1D003F2BF2 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211827741D257D1D003F2BF2 /* Image.swift */; };
-		211827A11D257D1D003F2BF2 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211827741D257D1D003F2BF2 /* Image.swift */; };
-		211827A21D257D1D003F2BF2 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211827741D257D1D003F2BF2 /* Image.swift */; };
-		211827A31D257D1D003F2BF2 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211827751D257D1D003F2BF2 /* Screen.swift */; };
-		211827A41D257D1D003F2BF2 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211827751D257D1D003F2BF2 /* Screen.swift */; };
-		211827A61D257D1D003F2BF2 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211827751D257D1D003F2BF2 /* Screen.swift */; };
-		211827A71D257D1D003F2BF2 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211827761D257D1D003F2BF2 /* View.swift */; };
-		211827A81D257D1D003F2BF2 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211827761D257D1D003F2BF2 /* View.swift */; };
-		211827AA1D257D1D003F2BF2 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211827761D257D1D003F2BF2 /* View.swift */; };
 		211827B41D257D36003F2BF2 /* X.h in Headers */ = {isa = PBXBuildFile; fileRef = 211827B31D257D2F003F2BF2 /* X.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		211827B51D257D36003F2BF2 /* X.h in Headers */ = {isa = PBXBuildFile; fileRef = 211827B31D257D2F003F2BF2 /* X.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		211827B61D257D37003F2BF2 /* X.h in Headers */ = {isa = PBXBuildFile; fileRef = 211827B31D257D2F003F2BF2 /* X.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		211827B71D257D38003F2BF2 /* X.h in Headers */ = {isa = PBXBuildFile; fileRef = 211827B31D257D2F003F2BF2 /* X.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21E1204C1D76BE4B0063D780 /* Image+macOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 211827731D257D1D003F2BF2 /* Image+macOS.m */; };
-		21F6EFF61D7095CB008B63DF /* FontTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFF51D7095CB008B63DF /* FontTextStyle.swift */; };
-		21F6EFF71D7095CB008B63DF /* FontTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFF51D7095CB008B63DF /* FontTextStyle.swift */; };
-		21F6EFF81D7095CB008B63DF /* FontTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFF51D7095CB008B63DF /* FontTextStyle.swift */; };
-		21F6EFF91D7095CB008B63DF /* FontTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFF51D7095CB008B63DF /* FontTextStyle.swift */; };
-		21F6EFFB1D709980008B63DF /* FontWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFFA1D709980008B63DF /* FontWeight.swift */; };
-		21F6EFFC1D709980008B63DF /* FontWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFFA1D709980008B63DF /* FontWeight.swift */; };
-		21F6EFFD1D709980008B63DF /* FontWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFFA1D709980008B63DF /* FontWeight.swift */; };
-		21F6EFFE1D709980008B63DF /* FontWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6EFFA1D709980008B63DF /* FontWeight.swift */; };
-		21F6F0311D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6F0301D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift */; };
-		21F6F0321D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6F0301D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift */; };
-		21F6F0331D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6F0301D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift */; };
-		21F6F0341D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6F0301D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift */; };
+		212BA2D1233FB97D00335979 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2C3233FB97D00335979 /* View.swift */; };
+		212BA2D2233FB97D00335979 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2C3233FB97D00335979 /* View.swift */; };
+		212BA2D3233FB97D00335979 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2C3233FB97D00335979 /* View.swift */; };
+		212BA2D4233FB97D00335979 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2C3233FB97D00335979 /* View.swift */; };
+		212BA2D5233FB97D00335979 /* FontWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2C4233FB97D00335979 /* FontWeight.swift */; };
+		212BA2D6233FB97D00335979 /* FontWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2C4233FB97D00335979 /* FontWeight.swift */; };
+		212BA2D7233FB97D00335979 /* FontWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2C4233FB97D00335979 /* FontWeight.swift */; };
+		212BA2D8233FB97D00335979 /* FontWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2C4233FB97D00335979 /* FontWeight.swift */; };
+		212BA2D9233FB97D00335979 /* GestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2C5233FB97D00335979 /* GestureRecognizer.swift */; };
+		212BA2DA233FB97D00335979 /* GestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2C5233FB97D00335979 /* GestureRecognizer.swift */; };
+		212BA2DB233FB97D00335979 /* GestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2C5233FB97D00335979 /* GestureRecognizer.swift */; };
+		212BA2DC233FB97D00335979 /* GestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2C5233FB97D00335979 /* GestureRecognizer.swift */; };
+		212BA2DD233FB97D00335979 /* FontDescriptorSymbolicTraits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2C6233FB97D00335979 /* FontDescriptorSymbolicTraits.swift */; };
+		212BA2DE233FB97D00335979 /* FontDescriptorSymbolicTraits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2C6233FB97D00335979 /* FontDescriptorSymbolicTraits.swift */; };
+		212BA2DF233FB97D00335979 /* FontDescriptorSymbolicTraits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2C6233FB97D00335979 /* FontDescriptorSymbolicTraits.swift */; };
+		212BA2E0233FB97D00335979 /* FontDescriptorSymbolicTraits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2C6233FB97D00335979 /* FontDescriptorSymbolicTraits.swift */; };
+		212BA2E1233FB97D00335979 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2C7233FB97D00335979 /* Image.swift */; };
+		212BA2E2233FB97D00335979 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2C7233FB97D00335979 /* Image.swift */; };
+		212BA2E3233FB97D00335979 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2C7233FB97D00335979 /* Image.swift */; };
+		212BA2E4233FB97D00335979 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2C7233FB97D00335979 /* Image.swift */; };
+		212BA2E5233FB97D00335979 /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2C8233FB97D00335979 /* CGSize.swift */; };
+		212BA2E6233FB97D00335979 /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2C8233FB97D00335979 /* CGSize.swift */; };
+		212BA2E7233FB97D00335979 /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2C8233FB97D00335979 /* CGSize.swift */; };
+		212BA2E8233FB97D00335979 /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2C8233FB97D00335979 /* CGSize.swift */; };
+		212BA2E9233FB97D00335979 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2C9233FB97D00335979 /* EdgeInsets.swift */; };
+		212BA2EA233FB97D00335979 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2C9233FB97D00335979 /* EdgeInsets.swift */; };
+		212BA2EB233FB97D00335979 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2C9233FB97D00335979 /* EdgeInsets.swift */; };
+		212BA2EC233FB97D00335979 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2C9233FB97D00335979 /* EdgeInsets.swift */; };
+		212BA2ED233FB97D00335979 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2CA233FB97D00335979 /* Screen.swift */; };
+		212BA2EE233FB97D00335979 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2CA233FB97D00335979 /* Screen.swift */; };
+		212BA2EF233FB97D00335979 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2CA233FB97D00335979 /* Screen.swift */; };
+		212BA2F0233FB97D00335979 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2CA233FB97D00335979 /* Screen.swift */; };
+		212BA2F1233FB97D00335979 /* FontTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2CB233FB97D00335979 /* FontTextStyle.swift */; };
+		212BA2F2233FB97D00335979 /* FontTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2CB233FB97D00335979 /* FontTextStyle.swift */; };
+		212BA2F3233FB97D00335979 /* FontTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2CB233FB97D00335979 /* FontTextStyle.swift */; };
+		212BA2F4233FB97D00335979 /* FontTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2CB233FB97D00335979 /* FontTextStyle.swift */; };
+		212BA2F5233FB97D00335979 /* ContentMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2CC233FB97D00335979 /* ContentMode.swift */; };
+		212BA2F6233FB97D00335979 /* ContentMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2CC233FB97D00335979 /* ContentMode.swift */; };
+		212BA2F7233FB97D00335979 /* ContentMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2CC233FB97D00335979 /* ContentMode.swift */; };
+		212BA2F8233FB97D00335979 /* ContentMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2CC233FB97D00335979 /* ContentMode.swift */; };
+		212BA2F9233FB97D00335979 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2CD233FB97D00335979 /* CGPoint.swift */; };
+		212BA2FA233FB97D00335979 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2CD233FB97D00335979 /* CGPoint.swift */; };
+		212BA2FB233FB97D00335979 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2CD233FB97D00335979 /* CGPoint.swift */; };
+		212BA2FC233FB97D00335979 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2CD233FB97D00335979 /* CGPoint.swift */; };
+		212BA2FD233FB97D00335979 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2CE233FB97D00335979 /* Font.swift */; };
+		212BA2FE233FB97D00335979 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2CE233FB97D00335979 /* Font.swift */; };
+		212BA2FF233FB97D00335979 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2CE233FB97D00335979 /* Font.swift */; };
+		212BA300233FB97D00335979 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2CE233FB97D00335979 /* Font.swift */; };
+		212BA301233FB97D00335979 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2CF233FB97D00335979 /* CGRect.swift */; };
+		212BA302233FB97D00335979 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2CF233FB97D00335979 /* CGRect.swift */; };
+		212BA303233FB97D00335979 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2CF233FB97D00335979 /* CGRect.swift */; };
+		212BA304233FB97D00335979 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2CF233FB97D00335979 /* CGRect.swift */; };
+		212BA305233FB97D00335979 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2D0233FB97D00335979 /* Color.swift */; };
+		212BA306233FB97D00335979 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2D0233FB97D00335979 /* Color.swift */; };
+		212BA307233FB97D00335979 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2D0233FB97D00335979 /* Color.swift */; };
+		212BA308233FB97D00335979 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2D0233FB97D00335979 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,24 +74,22 @@
 		211827291D257CA2003F2BF2 /* X.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = X.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		211827451D257CB1003F2BF2 /* X.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = X.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		211827521D257CB7003F2BF2 /* X.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = X.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2118276A1D257D1D003F2BF2 /* CGPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
-		2118276B1D257D1D003F2BF2 /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
-		2118276C1D257D1D003F2BF2 /* CGSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSize.swift; sourceTree = "<group>"; };
-		2118276D1D257D1D003F2BF2 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		2118276E1D257D1D003F2BF2 /* ContentMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentMode.swift; sourceTree = "<group>"; };
-		2118276F1D257D1D003F2BF2 /* EdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeInsets.swift; sourceTree = "<group>"; };
-		211827701D257D1D003F2BF2 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
-		211827711D257D1D003F2BF2 /* GestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureRecognizer.swift; sourceTree = "<group>"; };
-		211827721D257D1D003F2BF2 /* Image+macOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Image+macOS.h"; sourceTree = "<group>"; };
-		211827731D257D1D003F2BF2 /* Image+macOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Image+macOS.m"; sourceTree = "<group>"; };
-		211827741D257D1D003F2BF2 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
-		211827751D257D1D003F2BF2 /* Screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
-		211827761D257D1D003F2BF2 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		211827B11D257D2F003F2BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		211827B31D257D2F003F2BF2 /* X.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = X.h; sourceTree = "<group>"; };
-		21F6EFF51D7095CB008B63DF /* FontTextStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontTextStyle.swift; sourceTree = "<group>"; };
-		21F6EFFA1D709980008B63DF /* FontWeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontWeight.swift; sourceTree = "<group>"; };
-		21F6F0301D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontDescriptorSymbolicTraits.swift; sourceTree = "<group>"; };
+		212BA2C3233FB97D00335979 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		212BA2C4233FB97D00335979 /* FontWeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontWeight.swift; sourceTree = "<group>"; };
+		212BA2C5233FB97D00335979 /* GestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureRecognizer.swift; sourceTree = "<group>"; };
+		212BA2C6233FB97D00335979 /* FontDescriptorSymbolicTraits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontDescriptorSymbolicTraits.swift; sourceTree = "<group>"; };
+		212BA2C7233FB97D00335979 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		212BA2C8233FB97D00335979 /* CGSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSize.swift; sourceTree = "<group>"; };
+		212BA2C9233FB97D00335979 /* EdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeInsets.swift; sourceTree = "<group>"; };
+		212BA2CA233FB97D00335979 /* Screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		212BA2CB233FB97D00335979 /* FontTextStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontTextStyle.swift; sourceTree = "<group>"; };
+		212BA2CC233FB97D00335979 /* ContentMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentMode.swift; sourceTree = "<group>"; };
+		212BA2CD233FB97D00335979 /* CGPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
+		212BA2CE233FB97D00335979 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		212BA2CF233FB97D00335979 /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
+		212BA2D0233FB97D00335979 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,29 +124,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		211827691D257D1D003F2BF2 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				2118276A1D257D1D003F2BF2 /* CGPoint.swift */,
-				2118276B1D257D1D003F2BF2 /* CGRect.swift */,
-				2118276C1D257D1D003F2BF2 /* CGSize.swift */,
-				2118276D1D257D1D003F2BF2 /* Color.swift */,
-				2118276E1D257D1D003F2BF2 /* ContentMode.swift */,
-				2118276F1D257D1D003F2BF2 /* EdgeInsets.swift */,
-				211827701D257D1D003F2BF2 /* Font.swift */,
-				211827711D257D1D003F2BF2 /* GestureRecognizer.swift */,
-				211827721D257D1D003F2BF2 /* Image+macOS.h */,
-				211827731D257D1D003F2BF2 /* Image+macOS.m */,
-				211827741D257D1D003F2BF2 /* Image.swift */,
-				211827751D257D1D003F2BF2 /* Screen.swift */,
-				211827761D257D1D003F2BF2 /* View.swift */,
-				21F6EFF51D7095CB008B63DF /* FontTextStyle.swift */,
-				21F6EFFA1D709980008B63DF /* FontWeight.swift */,
-				21F6F0301D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
 		211827B01D257D2F003F2BF2 /* Support */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,7 +136,7 @@
 		21193C081AF043AB009FD090 = {
 			isa = PBXGroup;
 			children = (
-				211827691D257D1D003F2BF2 /* Sources */,
+				212BA2C1233FB97D00335979 /* Sources */,
 				211827B01D257D2F003F2BF2 /* Support */,
 				21193C131AF043AB009FD090 /* Products */,
 			);
@@ -175,6 +151,35 @@
 				211827521D257CB7003F2BF2 /* X.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		212BA2C1233FB97D00335979 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				212BA2C2233FB97D00335979 /* X */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		212BA2C2233FB97D00335979 /* X */ = {
+			isa = PBXGroup;
+			children = (
+				212BA2C3233FB97D00335979 /* View.swift */,
+				212BA2C4233FB97D00335979 /* FontWeight.swift */,
+				212BA2C5233FB97D00335979 /* GestureRecognizer.swift */,
+				212BA2C6233FB97D00335979 /* FontDescriptorSymbolicTraits.swift */,
+				212BA2C7233FB97D00335979 /* Image.swift */,
+				212BA2C8233FB97D00335979 /* CGSize.swift */,
+				212BA2C9233FB97D00335979 /* EdgeInsets.swift */,
+				212BA2CA233FB97D00335979 /* Screen.swift */,
+				212BA2CB233FB97D00335979 /* FontTextStyle.swift */,
+				212BA2CC233FB97D00335979 /* ContentMode.swift */,
+				212BA2CD233FB97D00335979 /* CGPoint.swift */,
+				212BA2CE233FB97D00335979 /* Font.swift */,
+				212BA2CF233FB97D00335979 /* CGRect.swift */,
+				212BA2D0233FB97D00335979 /* Color.swift */,
+			);
+			path = X;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,7 +197,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				211827981D257D1D003F2BF2 /* Image+macOS.h in Headers */,
 				211827B61D257D37003F2BF2 /* X.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,20 +376,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21F6EFF61D7095CB008B63DF /* FontTextStyle.swift in Sources */,
-				211827771D257D1D003F2BF2 /* CGPoint.swift in Sources */,
-				21F6F0311D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift in Sources */,
-				211827931D257D1D003F2BF2 /* GestureRecognizer.swift in Sources */,
-				211827831D257D1D003F2BF2 /* Color.swift in Sources */,
-				211827A31D257D1D003F2BF2 /* Screen.swift in Sources */,
-				2118278F1D257D1D003F2BF2 /* Font.swift in Sources */,
-				2118278B1D257D1D003F2BF2 /* EdgeInsets.swift in Sources */,
-				2118277F1D257D1D003F2BF2 /* CGSize.swift in Sources */,
-				211827A71D257D1D003F2BF2 /* View.swift in Sources */,
-				21F6EFFB1D709980008B63DF /* FontWeight.swift in Sources */,
-				211827871D257D1D003F2BF2 /* ContentMode.swift in Sources */,
-				2118277B1D257D1D003F2BF2 /* CGRect.swift in Sources */,
-				2118279F1D257D1D003F2BF2 /* Image.swift in Sources */,
+				212BA301233FB97D00335979 /* CGRect.swift in Sources */,
+				212BA2F9233FB97D00335979 /* CGPoint.swift in Sources */,
+				212BA2DD233FB97D00335979 /* FontDescriptorSymbolicTraits.swift in Sources */,
+				212BA2D9233FB97D00335979 /* GestureRecognizer.swift in Sources */,
+				212BA2D5233FB97D00335979 /* FontWeight.swift in Sources */,
+				212BA2F1233FB97D00335979 /* FontTextStyle.swift in Sources */,
+				212BA2D1233FB97D00335979 /* View.swift in Sources */,
+				212BA2E9233FB97D00335979 /* EdgeInsets.swift in Sources */,
+				212BA2E5233FB97D00335979 /* CGSize.swift in Sources */,
+				212BA305233FB97D00335979 /* Color.swift in Sources */,
+				212BA2FD233FB97D00335979 /* Font.swift in Sources */,
+				212BA2E1233FB97D00335979 /* Image.swift in Sources */,
+				212BA2F5233FB97D00335979 /* ContentMode.swift in Sources */,
+				212BA2ED233FB97D00335979 /* Screen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,21 +397,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21E1204C1D76BE4B0063D780 /* Image+macOS.m in Sources */,
-				21F6EFF71D7095CB008B63DF /* FontTextStyle.swift in Sources */,
-				211827781D257D1D003F2BF2 /* CGPoint.swift in Sources */,
-				21F6F0321D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift in Sources */,
-				211827941D257D1D003F2BF2 /* GestureRecognizer.swift in Sources */,
-				211827841D257D1D003F2BF2 /* Color.swift in Sources */,
-				211827A41D257D1D003F2BF2 /* Screen.swift in Sources */,
-				211827901D257D1D003F2BF2 /* Font.swift in Sources */,
-				2118278C1D257D1D003F2BF2 /* EdgeInsets.swift in Sources */,
-				211827801D257D1D003F2BF2 /* CGSize.swift in Sources */,
-				211827A81D257D1D003F2BF2 /* View.swift in Sources */,
-				21F6EFFC1D709980008B63DF /* FontWeight.swift in Sources */,
-				211827881D257D1D003F2BF2 /* ContentMode.swift in Sources */,
-				2118277C1D257D1D003F2BF2 /* CGRect.swift in Sources */,
-				211827A01D257D1D003F2BF2 /* Image.swift in Sources */,
+				212BA302233FB97D00335979 /* CGRect.swift in Sources */,
+				212BA2FA233FB97D00335979 /* CGPoint.swift in Sources */,
+				212BA2DE233FB97D00335979 /* FontDescriptorSymbolicTraits.swift in Sources */,
+				212BA2DA233FB97D00335979 /* GestureRecognizer.swift in Sources */,
+				212BA2D6233FB97D00335979 /* FontWeight.swift in Sources */,
+				212BA2F2233FB97D00335979 /* FontTextStyle.swift in Sources */,
+				212BA2D2233FB97D00335979 /* View.swift in Sources */,
+				212BA2EA233FB97D00335979 /* EdgeInsets.swift in Sources */,
+				212BA2E6233FB97D00335979 /* CGSize.swift in Sources */,
+				212BA306233FB97D00335979 /* Color.swift in Sources */,
+				212BA2FE233FB97D00335979 /* Font.swift in Sources */,
+				212BA2E2233FB97D00335979 /* Image.swift in Sources */,
+				212BA2F6233FB97D00335979 /* ContentMode.swift in Sources */,
+				212BA2EE233FB97D00335979 /* Screen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,17 +418,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21F6EFFD1D709980008B63DF /* FontWeight.swift in Sources */,
-				21F6EFF81D7095CB008B63DF /* FontTextStyle.swift in Sources */,
-				211827791D257D1D003F2BF2 /* CGPoint.swift in Sources */,
-				211827851D257D1D003F2BF2 /* Color.swift in Sources */,
-				211827911D257D1D003F2BF2 /* Font.swift in Sources */,
-				2118278D1D257D1D003F2BF2 /* EdgeInsets.swift in Sources */,
-				211827811D257D1D003F2BF2 /* CGSize.swift in Sources */,
-				211827891D257D1D003F2BF2 /* ContentMode.swift in Sources */,
-				2118277D1D257D1D003F2BF2 /* CGRect.swift in Sources */,
-				21F6F0331D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift in Sources */,
-				211827A11D257D1D003F2BF2 /* Image.swift in Sources */,
+				212BA303233FB97D00335979 /* CGRect.swift in Sources */,
+				212BA2FB233FB97D00335979 /* CGPoint.swift in Sources */,
+				212BA2DF233FB97D00335979 /* FontDescriptorSymbolicTraits.swift in Sources */,
+				212BA2DB233FB97D00335979 /* GestureRecognizer.swift in Sources */,
+				212BA2D7233FB97D00335979 /* FontWeight.swift in Sources */,
+				212BA2F3233FB97D00335979 /* FontTextStyle.swift in Sources */,
+				212BA2D3233FB97D00335979 /* View.swift in Sources */,
+				212BA2EB233FB97D00335979 /* EdgeInsets.swift in Sources */,
+				212BA2E7233FB97D00335979 /* CGSize.swift in Sources */,
+				212BA307233FB97D00335979 /* Color.swift in Sources */,
+				212BA2FF233FB97D00335979 /* Font.swift in Sources */,
+				212BA2E3233FB97D00335979 /* Image.swift in Sources */,
+				212BA2F7233FB97D00335979 /* ContentMode.swift in Sources */,
+				212BA2EF233FB97D00335979 /* Screen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,20 +439,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21F6EFF91D7095CB008B63DF /* FontTextStyle.swift in Sources */,
-				2118277A1D257D1D003F2BF2 /* CGPoint.swift in Sources */,
-				21F6F0341D70A4D3008B63DF /* FontDescriptorSymbolicTraits.swift in Sources */,
-				211827961D257D1D003F2BF2 /* GestureRecognizer.swift in Sources */,
-				211827861D257D1D003F2BF2 /* Color.swift in Sources */,
-				211827A61D257D1D003F2BF2 /* Screen.swift in Sources */,
-				211827921D257D1D003F2BF2 /* Font.swift in Sources */,
-				2118278E1D257D1D003F2BF2 /* EdgeInsets.swift in Sources */,
-				211827821D257D1D003F2BF2 /* CGSize.swift in Sources */,
-				211827AA1D257D1D003F2BF2 /* View.swift in Sources */,
-				21F6EFFE1D709980008B63DF /* FontWeight.swift in Sources */,
-				2118278A1D257D1D003F2BF2 /* ContentMode.swift in Sources */,
-				2118277E1D257D1D003F2BF2 /* CGRect.swift in Sources */,
-				211827A21D257D1D003F2BF2 /* Image.swift in Sources */,
+				212BA304233FB97D00335979 /* CGRect.swift in Sources */,
+				212BA2FC233FB97D00335979 /* CGPoint.swift in Sources */,
+				212BA2E0233FB97D00335979 /* FontDescriptorSymbolicTraits.swift in Sources */,
+				212BA2DC233FB97D00335979 /* GestureRecognizer.swift in Sources */,
+				212BA2D8233FB97D00335979 /* FontWeight.swift in Sources */,
+				212BA2F4233FB97D00335979 /* FontTextStyle.swift in Sources */,
+				212BA2D4233FB97D00335979 /* View.swift in Sources */,
+				212BA2EC233FB97D00335979 /* EdgeInsets.swift in Sources */,
+				212BA2E8233FB97D00335979 /* CGSize.swift in Sources */,
+				212BA308233FB97D00335979 /* Color.swift in Sources */,
+				212BA300233FB97D00335979 /* Font.swift in Sources */,
+				212BA2E4233FB97D00335979 /* Image.swift in Sources */,
+				212BA2F8233FB97D00335979 /* ContentMode.swift in Sources */,
+				212BA2F0233FB97D00335979 /* Screen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

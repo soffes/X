@@ -1,4 +1,7 @@
-#if os(macOS)
+#if os(iOS) || os(tvOS)
+    import UIKit.UIScreen
+    public typealias Screen = UIScreen
+#elseif os(macOS)
 	import AppKit.NSScreen
 	public typealias Screen = NSScreen
 
@@ -7,7 +10,4 @@
 			return backingScaleFactor
 		}
 	}
-#else
-	import UIKit.UIScreen
-	public typealias Screen = UIScreen
 #endif
