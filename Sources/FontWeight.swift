@@ -1,14 +1,6 @@
-//
-//  FontWeight.swift
-//  X
-//
-//  Created by Sam Soffes on 8/26/16.
-//  Copyright © 2016 Sam Soffes. All rights reserved.
-//
-
 #if os(iOS) || os(tvOS) || os(watchOS)
 	import UIKit
-#elseif os(OSX)
+#elseif os(macOS)
 	import CoreGraphics
 #endif
 

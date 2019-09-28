@@ -1,12 +1,4 @@
-//
-//  EdgeInsets.swift
-//  X
-//
-//  Created by Sam Soffes on 5/8/15.
-//  Copyright (c) 2015 Sam Soffes. All rights reserved.
-//
-
-#if os(OSX)
+#if os(macOS)
 	import AppKit
 	public typealias EdgeInsets = NSEdgeInsets
 #else
@@ -40,7 +32,7 @@ extension EdgeInsets {
 			insetRect.size.width -= left + right
 			return insetRect
 		#else
-			return UIEdgeInsetsInsetRect(rect, self)
+            return rect.inset(by: self)
 		#endif
 	}
 }

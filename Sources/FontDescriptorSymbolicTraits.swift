@@ -1,14 +1,6 @@
-//
-//  FontDescriptorSymbolicTraits.swift
-//  X
-//
-//  Created by Sam Soffes on 8/26/16.
-//  Copyright © 2016 Sam Soffes. All rights reserved.
-//
-
 import Foundation
 
-#if os(OSX)
+#if os(macOS)
 	public struct FontDescriptorSymbolicTraits: OptionSet {
 		public let rawValue: Int32
 
@@ -98,5 +90,5 @@ import Foundation
 	}
 #else
 	import UIKit
-	public typealias FontDescriptorSymbolicTraits = UIFontDescriptorSymbolicTraits
+    public typealias FontDescriptorSymbolicTraits = UIFontDescriptor.SymbolicTraits
 #endif

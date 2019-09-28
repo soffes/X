@@ -1,12 +1,4 @@
-//
-//  GestureRecognizer.swift
-//  X
-//
-//  Created by Sam Soffes on 4/28/15.
-//  Copyright (c) 2015 Sam Soffes. All rights reserved.
-//
-
-#if os(OSX)
+#if os(macOS)
 	import AppKit.NSGestureRecognizer
 	@available(OSX 10.10, *) public typealias GestureRecognizer = NSGestureRecognizer
 	@available(OSX 10.10, *) public typealias TapGestureRecognizer = NSClickGestureRecognizer
@@ -16,6 +8,6 @@
 	public typealias TapGestureRecognizer = UITapGestureRecognizer
 
 	extension GestureRecognizer {
-		public typealias State = UIGestureRecognizerState
+        public typealias State = UIGestureRecognizer.State
 	}
 #endif

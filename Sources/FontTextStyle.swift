@@ -1,15 +1,7 @@
-//
-//  TextStyle.swift
-//  X
-//
-//  Created by Sam Soffes on 8/26/16.
-//  Copyright © 2016 Sam Soffes. All rights reserved.
-//
-
 #if os(iOS) || os(tvOS) || os(watchOS)
 	import UIKit
-	public typealias FontTextStyle = UIFontTextStyle
-#elseif os(OSX)
+    public typealias FontTextStyle = UIFont.TextStyle
+#elseif os(macOS)
 	import AppKit
 
 	public enum FontTextStyle: String {

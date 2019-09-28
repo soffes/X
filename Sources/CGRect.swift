@@ -1,15 +1,7 @@
-//
-//  CGRect.swift
-//  X
-//
-//  Created by Sam Soffes on 4/28/15.
-//  Copyright (c) 2015 Sam Soffes. All rights reserved.
-//
-
 import Foundation
 import CoreGraphics
 
-#if os(OSX)
+#if os(macOS)
 	public func NSStringFromCGRect(_ rect: CGRect) -> String! {
 		return NSStringFromRect(rect)
 	}
@@ -24,11 +16,19 @@ import CoreGraphics
 
 extension CGRect {
 	public var stringRepresentation: String {
-		return NSStringFromCGRect(self)
+        #if os(macOS)
+            return NSStringFromCGRect(self)
+        #else
+            return NSCoder.string(for: self)
+        #endif
 	}
 
 	public init(string: String) {
-		self = CGRectFromString(string)
+        #if os(macOS)
+            self = CGRectFromString(string)
+        #else
+            self = NSCoder.cgRect(for: string)
+        #endif
 	}
 
 	public func aspectFit(_ boundingRect: CGRect) -> CGRect {
@@ -95,6 +95,11 @@ extension CGRect {
 			rect.origin.x = bounds.size.width - rect.size.width
 			rect.origin.y = bounds.size.height - rect.size.height
 			return rect
+        #if os(iOS) || os(tvOS)
+            @unknown default:
+                assertionFailure("Unknown content mode")
+                return rect
+        #endif
 		}
 	}
 }

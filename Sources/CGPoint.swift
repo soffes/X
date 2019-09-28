@@ -1,15 +1,7 @@
-//
-//  CGPoint.swift
-//  X
-//
-//  Created by Sam Soffes on 5/8/15.
-//  Copyright (c) 2015 Sam Soffes. All rights reserved.
-//
-
 import Foundation
 import CoreGraphics
 
-#if os(OSX)
+#if os(macOS)
 	public func NSStringFromCGPoint(_ point: CGPoint) -> String! {
 		return NSStringFromPoint(point)
 	}
@@ -24,10 +16,18 @@ import CoreGraphics
 
 extension CGPoint {
 	public var stringRepresentation: String {
-		return NSStringFromCGPoint(self)
+        #if os(macOS)
+            return NSStringFromCGPoint(self)
+        #else
+            return NSCoder.string(for: self)
+        #endif
 	}
 
 	public init(string: String) {
-		self = CGPointFromString(string)
+        #if os(macOS)
+            self = CGPointFromString(string)
+        #else
+            self = NSCoder.cgPoint(for: string)
+        #endif
 	}
 }

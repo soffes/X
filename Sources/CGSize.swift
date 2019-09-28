@@ -1,15 +1,7 @@
-//
-//  CGSize.swift
-//  X
-//
-//  Created by Sam Soffes on 5/8/15.
-//  Copyright (c) 2015 Sam Soffes. All rights reserved.
-//
-
 import Foundation
 import CoreGraphics
 
-#if os(OSX)
+#if os(macOS)
 	public func NSStringFromCGSize(_ size: CGSize) -> String! {
 		return NSStringFromSize(size)
 	}
@@ -24,11 +16,19 @@ import CoreGraphics
 
 extension CGSize {
 	public var stringRepresentation: String {
-		return NSStringFromCGSize(self)
+        #if os(macOS)
+            return NSStringFromCGSize(self)
+        #else
+            return NSCoder.string(for: self)
+        #endif
 	}
 
 	public init(string: String) {
-		self = CGSizeFromString(string)
+        #if os(macOS)
+            self = CGSizeFromString(string)
+        #else
+            self = NSCoder.cgSize(for: string)
+        #endif
 	}
 
 	public var integral: CGSize {
