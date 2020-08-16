@@ -67,6 +67,10 @@
 		212BA306233FB97D00335979 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2D0233FB97D00335979 /* Color.swift */; };
 		212BA307233FB97D00335979 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2D0233FB97D00335979 /* Color.swift */; };
 		212BA308233FB97D00335979 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2D0233FB97D00335979 /* Color.swift */; };
+		3D3DFBD624E6B51E003644A5 /* BezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3DFBD524E6B51E003644A5 /* BezierPath.swift */; };
+		3D3DFBD724E6B51E003644A5 /* BezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3DFBD524E6B51E003644A5 /* BezierPath.swift */; };
+		3D3DFBD824E6B51E003644A5 /* BezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3DFBD524E6B51E003644A5 /* BezierPath.swift */; };
+		3D3DFBD924E6B51E003644A5 /* BezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3DFBD524E6B51E003644A5 /* BezierPath.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +94,7 @@
 		212BA2CE233FB97D00335979 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		212BA2CF233FB97D00335979 /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
 		212BA2D0233FB97D00335979 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		3D3DFBD524E6B51E003644A5 /* BezierPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierPath.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +183,7 @@
 				212BA2CE233FB97D00335979 /* Font.swift */,
 				212BA2CF233FB97D00335979 /* CGRect.swift */,
 				212BA2D0233FB97D00335979 /* Color.swift */,
+				3D3DFBD524E6B51E003644A5 /* BezierPath.swift */,
 			);
 			path = X;
 			sourceTree = "<group>";
@@ -377,6 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				212BA301233FB97D00335979 /* CGRect.swift in Sources */,
+				3D3DFBD624E6B51E003644A5 /* BezierPath.swift in Sources */,
 				212BA2F9233FB97D00335979 /* CGPoint.swift in Sources */,
 				212BA2DD233FB97D00335979 /* FontDescriptorSymbolicTraits.swift in Sources */,
 				212BA2D9233FB97D00335979 /* GestureRecognizer.swift in Sources */,
@@ -398,6 +405,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				212BA302233FB97D00335979 /* CGRect.swift in Sources */,
+				3D3DFBD724E6B51E003644A5 /* BezierPath.swift in Sources */,
 				212BA2FA233FB97D00335979 /* CGPoint.swift in Sources */,
 				212BA2DE233FB97D00335979 /* FontDescriptorSymbolicTraits.swift in Sources */,
 				212BA2DA233FB97D00335979 /* GestureRecognizer.swift in Sources */,
@@ -419,6 +427,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				212BA303233FB97D00335979 /* CGRect.swift in Sources */,
+				3D3DFBD824E6B51E003644A5 /* BezierPath.swift in Sources */,
 				212BA2FB233FB97D00335979 /* CGPoint.swift in Sources */,
 				212BA2DF233FB97D00335979 /* FontDescriptorSymbolicTraits.swift in Sources */,
 				212BA2DB233FB97D00335979 /* GestureRecognizer.swift in Sources */,
@@ -440,6 +449,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				212BA304233FB97D00335979 /* CGRect.swift in Sources */,
+				3D3DFBD924E6B51E003644A5 /* BezierPath.swift in Sources */,
 				212BA2FC233FB97D00335979 /* CGPoint.swift in Sources */,
 				212BA2E0233FB97D00335979 /* FontDescriptorSymbolicTraits.swift in Sources */,
 				212BA2DC233FB97D00335979 /* GestureRecognizer.swift in Sources */,
