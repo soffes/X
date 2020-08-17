@@ -275,7 +275,7 @@ extension NSBezierPath {
 	// -[XUIKitAdditions_Implementation xui_fillWithBlendMode:alpha:]
 	@available(OSX 10.10, *)
 	open func fill(with blendMode: CGBlendMode, alpha: CGFloat) {
-		guard let context = NSGraphicsContext.current?.cgContext else {
+		guard let context = GraphicsGetCurrentContext() else {
 			return
 		}
 		
@@ -294,7 +294,7 @@ extension NSBezierPath {
 	@available(OSX 10.10, *)
 	open func stroke(with blendMode: CGBlendMode, alpha: CGFloat)
  {
-		guard let context = NSGraphicsContext.current?.cgContext else {
+		guard let context = GraphicsGetCurrentContext() else {
 			return
 		}
 		

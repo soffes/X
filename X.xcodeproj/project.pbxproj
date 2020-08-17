@@ -71,6 +71,10 @@
 		3D3DFBD724E6B51E003644A5 /* BezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3DFBD524E6B51E003644A5 /* BezierPath.swift */; };
 		3D3DFBD824E6B51E003644A5 /* BezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3DFBD524E6B51E003644A5 /* BezierPath.swift */; };
 		3D3DFBD924E6B51E003644A5 /* BezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3DFBD524E6B51E003644A5 /* BezierPath.swift */; };
+		3D9F611F24EAB93900EB1073 /* Graphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F611E24EAB93900EB1073 /* Graphics.swift */; };
+		3D9F612024EAB93900EB1073 /* Graphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F611E24EAB93900EB1073 /* Graphics.swift */; };
+		3D9F612124EAB93900EB1073 /* Graphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F611E24EAB93900EB1073 /* Graphics.swift */; };
+		3D9F612224EAB93900EB1073 /* Graphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F611E24EAB93900EB1073 /* Graphics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,6 +99,7 @@
 		212BA2CF233FB97D00335979 /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
 		212BA2D0233FB97D00335979 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		3D3DFBD524E6B51E003644A5 /* BezierPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierPath.swift; sourceTree = "<group>"; };
+		3D9F611E24EAB93900EB1073 /* Graphics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +189,7 @@
 				212BA2CF233FB97D00335979 /* CGRect.swift */,
 				212BA2D0233FB97D00335979 /* Color.swift */,
 				3D3DFBD524E6B51E003644A5 /* BezierPath.swift */,
+				3D9F611E24EAB93900EB1073 /* Graphics.swift */,
 			);
 			path = X;
 			sourceTree = "<group>";
@@ -392,6 +398,7 @@
 				212BA2D1233FB97D00335979 /* View.swift in Sources */,
 				212BA2E9233FB97D00335979 /* EdgeInsets.swift in Sources */,
 				212BA2E5233FB97D00335979 /* CGSize.swift in Sources */,
+				3D9F611F24EAB93900EB1073 /* Graphics.swift in Sources */,
 				212BA305233FB97D00335979 /* Color.swift in Sources */,
 				212BA2FD233FB97D00335979 /* Font.swift in Sources */,
 				212BA2E1233FB97D00335979 /* Image.swift in Sources */,
@@ -414,6 +421,7 @@
 				212BA2D2233FB97D00335979 /* View.swift in Sources */,
 				212BA2EA233FB97D00335979 /* EdgeInsets.swift in Sources */,
 				212BA2E6233FB97D00335979 /* CGSize.swift in Sources */,
+				3D9F612024EAB93900EB1073 /* Graphics.swift in Sources */,
 				212BA306233FB97D00335979 /* Color.swift in Sources */,
 				212BA2FE233FB97D00335979 /* Font.swift in Sources */,
 				212BA2E2233FB97D00335979 /* Image.swift in Sources */,
@@ -436,6 +444,7 @@
 				212BA2D3233FB97D00335979 /* View.swift in Sources */,
 				212BA2EB233FB97D00335979 /* EdgeInsets.swift in Sources */,
 				212BA2E7233FB97D00335979 /* CGSize.swift in Sources */,
+				3D9F612124EAB93900EB1073 /* Graphics.swift in Sources */,
 				212BA307233FB97D00335979 /* Color.swift in Sources */,
 				212BA2FF233FB97D00335979 /* Font.swift in Sources */,
 				212BA2E3233FB97D00335979 /* Image.swift in Sources */,
@@ -458,6 +467,7 @@
 				212BA2D4233FB97D00335979 /* View.swift in Sources */,
 				212BA2EC233FB97D00335979 /* EdgeInsets.swift in Sources */,
 				212BA2E8233FB97D00335979 /* CGSize.swift in Sources */,
+				3D9F612224EAB93900EB1073 /* Graphics.swift in Sources */,
 				212BA308233FB97D00335979 /* Color.swift in Sources */,
 				212BA300233FB97D00335979 /* Font.swift in Sources */,
 				212BA2E4233FB97D00335979 /* Image.swift in Sources */,
