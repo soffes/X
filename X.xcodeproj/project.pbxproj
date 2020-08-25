@@ -67,6 +67,18 @@
 		212BA306233FB97D00335979 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2D0233FB97D00335979 /* Color.swift */; };
 		212BA307233FB97D00335979 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2D0233FB97D00335979 /* Color.swift */; };
 		212BA308233FB97D00335979 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BA2D0233FB97D00335979 /* Color.swift */; };
+		3D3DFBD624E6B51E003644A5 /* BezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3DFBD524E6B51E003644A5 /* BezierPath.swift */; };
+		3D3DFBD724E6B51E003644A5 /* BezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3DFBD524E6B51E003644A5 /* BezierPath.swift */; };
+		3D3DFBD824E6B51E003644A5 /* BezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3DFBD524E6B51E003644A5 /* BezierPath.swift */; };
+		3D3DFBD924E6B51E003644A5 /* BezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3DFBD524E6B51E003644A5 /* BezierPath.swift */; };
+		3D9F611F24EAB93900EB1073 /* Graphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F611E24EAB93900EB1073 /* Graphics.swift */; };
+		3D9F612024EAB93900EB1073 /* Graphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F611E24EAB93900EB1073 /* Graphics.swift */; };
+		3D9F612124EAB93900EB1073 /* Graphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F611E24EAB93900EB1073 /* Graphics.swift */; };
+		3D9F612224EAB93900EB1073 /* Graphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F611E24EAB93900EB1073 /* Graphics.swift */; };
+		3DA1842A24EEA79900898C62 /* GraphicsContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA1842924EEA79900898C62 /* GraphicsContext.swift */; };
+		3DA1842B24EEA79900898C62 /* GraphicsContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA1842924EEA79900898C62 /* GraphicsContext.swift */; };
+		3DA1842C24EEA79900898C62 /* GraphicsContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA1842924EEA79900898C62 /* GraphicsContext.swift */; };
+		3DA1842D24EEA79900898C62 /* GraphicsContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA1842924EEA79900898C62 /* GraphicsContext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +102,9 @@
 		212BA2CE233FB97D00335979 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		212BA2CF233FB97D00335979 /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
 		212BA2D0233FB97D00335979 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		3D3DFBD524E6B51E003644A5 /* BezierPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierPath.swift; sourceTree = "<group>"; };
+		3D9F611E24EAB93900EB1073 /* Graphics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphics.swift; sourceTree = "<group>"; };
+		3DA1842924EEA79900898C62 /* GraphicsContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicsContext.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +156,7 @@
 				21193C131AF043AB009FD090 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		21193C131AF043AB009FD090 /* Products */ = {
 			isa = PBXGroup;
@@ -178,6 +194,9 @@
 				212BA2CE233FB97D00335979 /* Font.swift */,
 				212BA2CF233FB97D00335979 /* CGRect.swift */,
 				212BA2D0233FB97D00335979 /* Color.swift */,
+				3D3DFBD524E6B51E003644A5 /* BezierPath.swift */,
+				3D9F611E24EAB93900EB1073 /* Graphics.swift */,
+				3DA1842924EEA79900898C62 /* GraphicsContext.swift */,
 			);
 			path = X;
 			sourceTree = "<group>";
@@ -299,7 +318,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 1110;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Sam Soffes";
 				TargetAttributes = {
 					2118270C1D257C86003F2BF2 = {
@@ -377,6 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				212BA301233FB97D00335979 /* CGRect.swift in Sources */,
+				3D3DFBD624E6B51E003644A5 /* BezierPath.swift in Sources */,
 				212BA2F9233FB97D00335979 /* CGPoint.swift in Sources */,
 				212BA2DD233FB97D00335979 /* FontDescriptorSymbolicTraits.swift in Sources */,
 				212BA2D9233FB97D00335979 /* GestureRecognizer.swift in Sources */,
@@ -385,8 +405,10 @@
 				212BA2D1233FB97D00335979 /* View.swift in Sources */,
 				212BA2E9233FB97D00335979 /* EdgeInsets.swift in Sources */,
 				212BA2E5233FB97D00335979 /* CGSize.swift in Sources */,
+				3D9F611F24EAB93900EB1073 /* Graphics.swift in Sources */,
 				212BA305233FB97D00335979 /* Color.swift in Sources */,
 				212BA2FD233FB97D00335979 /* Font.swift in Sources */,
+				3DA1842A24EEA79900898C62 /* GraphicsContext.swift in Sources */,
 				212BA2E1233FB97D00335979 /* Image.swift in Sources */,
 				212BA2F5233FB97D00335979 /* ContentMode.swift in Sources */,
 				212BA2ED233FB97D00335979 /* Screen.swift in Sources */,
@@ -398,6 +420,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				212BA302233FB97D00335979 /* CGRect.swift in Sources */,
+				3D3DFBD724E6B51E003644A5 /* BezierPath.swift in Sources */,
 				212BA2FA233FB97D00335979 /* CGPoint.swift in Sources */,
 				212BA2DE233FB97D00335979 /* FontDescriptorSymbolicTraits.swift in Sources */,
 				212BA2DA233FB97D00335979 /* GestureRecognizer.swift in Sources */,
@@ -406,8 +429,10 @@
 				212BA2D2233FB97D00335979 /* View.swift in Sources */,
 				212BA2EA233FB97D00335979 /* EdgeInsets.swift in Sources */,
 				212BA2E6233FB97D00335979 /* CGSize.swift in Sources */,
+				3D9F612024EAB93900EB1073 /* Graphics.swift in Sources */,
 				212BA306233FB97D00335979 /* Color.swift in Sources */,
 				212BA2FE233FB97D00335979 /* Font.swift in Sources */,
+				3DA1842B24EEA79900898C62 /* GraphicsContext.swift in Sources */,
 				212BA2E2233FB97D00335979 /* Image.swift in Sources */,
 				212BA2F6233FB97D00335979 /* ContentMode.swift in Sources */,
 				212BA2EE233FB97D00335979 /* Screen.swift in Sources */,
@@ -419,6 +444,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				212BA303233FB97D00335979 /* CGRect.swift in Sources */,
+				3D3DFBD824E6B51E003644A5 /* BezierPath.swift in Sources */,
 				212BA2FB233FB97D00335979 /* CGPoint.swift in Sources */,
 				212BA2DF233FB97D00335979 /* FontDescriptorSymbolicTraits.swift in Sources */,
 				212BA2DB233FB97D00335979 /* GestureRecognizer.swift in Sources */,
@@ -427,8 +453,10 @@
 				212BA2D3233FB97D00335979 /* View.swift in Sources */,
 				212BA2EB233FB97D00335979 /* EdgeInsets.swift in Sources */,
 				212BA2E7233FB97D00335979 /* CGSize.swift in Sources */,
+				3D9F612124EAB93900EB1073 /* Graphics.swift in Sources */,
 				212BA307233FB97D00335979 /* Color.swift in Sources */,
 				212BA2FF233FB97D00335979 /* Font.swift in Sources */,
+				3DA1842C24EEA79900898C62 /* GraphicsContext.swift in Sources */,
 				212BA2E3233FB97D00335979 /* Image.swift in Sources */,
 				212BA2F7233FB97D00335979 /* ContentMode.swift in Sources */,
 				212BA2EF233FB97D00335979 /* Screen.swift in Sources */,
@@ -440,6 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				212BA304233FB97D00335979 /* CGRect.swift in Sources */,
+				3D3DFBD924E6B51E003644A5 /* BezierPath.swift in Sources */,
 				212BA2FC233FB97D00335979 /* CGPoint.swift in Sources */,
 				212BA2E0233FB97D00335979 /* FontDescriptorSymbolicTraits.swift in Sources */,
 				212BA2DC233FB97D00335979 /* GestureRecognizer.swift in Sources */,
@@ -448,8 +477,10 @@
 				212BA2D4233FB97D00335979 /* View.swift in Sources */,
 				212BA2EC233FB97D00335979 /* EdgeInsets.swift in Sources */,
 				212BA2E8233FB97D00335979 /* CGSize.swift in Sources */,
+				3D9F612224EAB93900EB1073 /* Graphics.swift in Sources */,
 				212BA308233FB97D00335979 /* Color.swift in Sources */,
 				212BA300233FB97D00335979 /* Font.swift in Sources */,
+				3DA1842D24EEA79900898C62 /* GraphicsContext.swift in Sources */,
 				212BA2E4233FB97D00335979 /* Image.swift in Sources */,
 				212BA2F8233FB97D00335979 /* ContentMode.swift in Sources */,
 				212BA2F0233FB97D00335979 /* Screen.swift in Sources */,
@@ -656,6 +687,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -681,7 +713,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -689,7 +721,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 5.0;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
@@ -720,6 +752,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -738,14 +771,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 5.0;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;

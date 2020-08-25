@@ -23,11 +23,13 @@ X provides several `typealias`es to make dealing with AppKit/UIKit types that ar
 
 | Name                                                      | UIKit                      | AppKit                     |
 |-----------------------------------------------------------|----------------------------|----------------------------|
+| [`BezierPath`](X/BezierPath.swift)                        | `UIBezierPath `            | `NSBezierPath`             |
 | [`Color`](X/Color.swift)                                  | `UIColor`                  | `NSColor`                  |
-| [`ContentMode`](X/ContentMode.swift)                      | `UIViewContentMode`        |  N/A                        |
+| [`ContentMode`](X/ContentMode.swift)                      | `UIViewContentMode`        |  N/A                       |
 | [`EdgeInsets`](X/EdgeInsets.swift)                        | `UIEdgeInsets`             | `NSEdgeInsets`             |
 | [`Font`](X/Font.swift)                                    | `UIFont`                   | `NSFont`                   |
 | [`GestureRecognizerStateType`](X/GestureRecognizer.swift) | `UIGestureRecognizerState` | `NSGestureRecognizerState` |
+| [`GraphicsContext`](X/GraphicsContext.swift)              | `CGContext`                | `NSGraphicsContext`        |
 | [`Image`](X/Image.swift)                                  | `UIImage`                  | `NSImage`                  |
 | [`Screen`](X/Screen.swift)                                | `UIScreen`                 | `NSScreen`                 |
 | [`ViewType`](X/View.swift)                                | `UIView`                   | `NSView`                   |
@@ -56,5 +58,11 @@ func layoutSubviews()     // Bridged from `layout`
 ### Core Graphics
 
 There are several extensions for [`CGPoint`](X/CGPoint.swift), [`CGSize`](X/CGSize.swift), and [`CGRect`](X/CGRect.swift) that help with converting to and from strings since UIKit and AppKit have different function names. The UIKit function names are aliased on Mac. There are also initializers and computed properties you can use instead of the functions.
+
+
+### UIGraphicsRenderer
+
+If you are targeting macOS, you may want to consider using [GraphicsRenderer](https://github.com/shaps80/GraphicsRenderer), a [drop-in UIGraphicsRenderer port](https://github.com/shaps80/GraphicsRenderer).
+
 
 Enjoy.
