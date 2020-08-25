@@ -75,6 +75,10 @@
 		3D9F612024EAB93900EB1073 /* Graphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F611E24EAB93900EB1073 /* Graphics.swift */; };
 		3D9F612124EAB93900EB1073 /* Graphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F611E24EAB93900EB1073 /* Graphics.swift */; };
 		3D9F612224EAB93900EB1073 /* Graphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F611E24EAB93900EB1073 /* Graphics.swift */; };
+		3DA1842A24EEA79900898C62 /* GraphicsContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA1842924EEA79900898C62 /* GraphicsContext.swift */; };
+		3DA1842B24EEA79900898C62 /* GraphicsContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA1842924EEA79900898C62 /* GraphicsContext.swift */; };
+		3DA1842C24EEA79900898C62 /* GraphicsContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA1842924EEA79900898C62 /* GraphicsContext.swift */; };
+		3DA1842D24EEA79900898C62 /* GraphicsContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA1842924EEA79900898C62 /* GraphicsContext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +104,7 @@
 		212BA2D0233FB97D00335979 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		3D3DFBD524E6B51E003644A5 /* BezierPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierPath.swift; sourceTree = "<group>"; };
 		3D9F611E24EAB93900EB1073 /* Graphics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphics.swift; sourceTree = "<group>"; };
+		3DA1842924EEA79900898C62 /* GraphicsContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicsContext.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +156,7 @@
 				21193C131AF043AB009FD090 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		21193C131AF043AB009FD090 /* Products */ = {
 			isa = PBXGroup;
@@ -190,6 +196,7 @@
 				212BA2D0233FB97D00335979 /* Color.swift */,
 				3D3DFBD524E6B51E003644A5 /* BezierPath.swift */,
 				3D9F611E24EAB93900EB1073 /* Graphics.swift */,
+				3DA1842924EEA79900898C62 /* GraphicsContext.swift */,
 			);
 			path = X;
 			sourceTree = "<group>";
@@ -401,6 +408,7 @@
 				3D9F611F24EAB93900EB1073 /* Graphics.swift in Sources */,
 				212BA305233FB97D00335979 /* Color.swift in Sources */,
 				212BA2FD233FB97D00335979 /* Font.swift in Sources */,
+				3DA1842A24EEA79900898C62 /* GraphicsContext.swift in Sources */,
 				212BA2E1233FB97D00335979 /* Image.swift in Sources */,
 				212BA2F5233FB97D00335979 /* ContentMode.swift in Sources */,
 				212BA2ED233FB97D00335979 /* Screen.swift in Sources */,
@@ -424,6 +432,7 @@
 				3D9F612024EAB93900EB1073 /* Graphics.swift in Sources */,
 				212BA306233FB97D00335979 /* Color.swift in Sources */,
 				212BA2FE233FB97D00335979 /* Font.swift in Sources */,
+				3DA1842B24EEA79900898C62 /* GraphicsContext.swift in Sources */,
 				212BA2E2233FB97D00335979 /* Image.swift in Sources */,
 				212BA2F6233FB97D00335979 /* ContentMode.swift in Sources */,
 				212BA2EE233FB97D00335979 /* Screen.swift in Sources */,
@@ -447,6 +456,7 @@
 				3D9F612124EAB93900EB1073 /* Graphics.swift in Sources */,
 				212BA307233FB97D00335979 /* Color.swift in Sources */,
 				212BA2FF233FB97D00335979 /* Font.swift in Sources */,
+				3DA1842C24EEA79900898C62 /* GraphicsContext.swift in Sources */,
 				212BA2E3233FB97D00335979 /* Image.swift in Sources */,
 				212BA2F7233FB97D00335979 /* ContentMode.swift in Sources */,
 				212BA2EF233FB97D00335979 /* Screen.swift in Sources */,
@@ -470,6 +480,7 @@
 				3D9F612224EAB93900EB1073 /* Graphics.swift in Sources */,
 				212BA308233FB97D00335979 /* Color.swift in Sources */,
 				212BA300233FB97D00335979 /* Font.swift in Sources */,
+				3DA1842D24EEA79900898C62 /* GraphicsContext.swift in Sources */,
 				212BA2E4233FB97D00335979 /* Image.swift in Sources */,
 				212BA2F8233FB97D00335979 /* ContentMode.swift in Sources */,
 				212BA2F0233FB97D00335979 /* Screen.swift in Sources */,
