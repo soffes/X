@@ -23,11 +23,13 @@ X provides several `typealias`es to make dealing with AppKit/UIKit types that ar
 
 | Name                                                      | UIKit                      | AppKit                     |
 |-----------------------------------------------------------|----------------------------|----------------------------|
+| [`BezierPath`](X/BezierPath.swift)                        | `UIBezierPath `            | `NSBezierPath`             |
 | [`Color`](X/Color.swift)                                  | `UIColor`                  | `NSColor`                  |
 | [`ContentMode`](X/ContentMode.swift)                      | `UIViewContentMode`        |  N/A                       |
 | [`EdgeInsets`](X/EdgeInsets.swift)                        | `UIEdgeInsets`             | `NSEdgeInsets`             |
 | [`Font`](X/Font.swift)                                    | `UIFont`                   | `NSFont`                   |
 | [`GestureRecognizerStateType`](X/GestureRecognizer.swift) | `UIGestureRecognizerState` | `NSGestureRecognizerState` |
+| [`GraphicsContext`](X/GraphicsContext.swift)              | `CGContext`                | `NSGraphicsContext`        |
 | [`Image`](X/Image.swift)                                  | `UIImage`                  | `NSImage`                  |
 | [`Screen`](X/Screen.swift)                                | `UIScreen`                 | `NSScreen`                 |
 | [`ViewType`](X/View.swift)                                | `UIView`                   | `NSView`                   |
