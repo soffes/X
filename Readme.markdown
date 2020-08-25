@@ -57,4 +57,10 @@ func layoutSubviews()     // Bridged from `layout`
 
 There are several extensions for [`CGPoint`](X/CGPoint.swift), [`CGSize`](X/CGSize.swift), and [`CGRect`](X/CGRect.swift) that help with converting to and from strings since UIKit and AppKit have different function names. The UIKit function names are aliased on Mac. There are also initializers and computed properties you can use instead of the functions.
 
+
+### UIGraphicsRenderer
+
+If you are targeting macOS, you may want to consider using [GraphicsRenderer](https://github.com/shaps80/GraphicsRenderer), a [drop-in UIGraphicsRenderer port](https://github.com/shaps80/GraphicsRenderer).
+
+
 Enjoy.
